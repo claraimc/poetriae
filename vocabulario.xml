@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="terminos.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vocabulario terminológico: poética</title>
+            <respStmt>
+               <resp>Recolección de datos, modelado y codificación</resp>
+               <name role="editor">Clara</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Universidad de Educación a Distancia</authority>
+            <availability>
+               <licence>
+                  <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution-NonCommercial-ShareAlike 4.0 International</ref>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl xml:id="PMC">
+            <cRefPattern matchPattern="(.+)"
+                         replacementPattern="http://vocabularios.caicyt.gov.ar/pmc/$1">
+               <p/>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div corresp="#PMC">            
+            <entryFree>
+               <term n="245">Átona</term>
+            </entryFree>
+            <entryFree>
+               <term n="304">Apócope</term>
+            </entryFree>
+            <entryFree>
+               <term n="227">Ars</term>
+            </entryFree>
+            <entryFree>
+               <term n="156">Arte mayor</term>
+            </entryFree>
+            <entryFree>
+               <term n="157">Arte menor</term>
+            </entryFree>
+            <entryFree>
+               <term n="235">Arte poética</term>
+            </entryFree>
+            <entryFree>
+               <term n="284">Cambio de posición acentual</term>
+            </entryFree>
+            <entryFree>
+               <term n="242">Componentes</term>
+            </entryFree>
+            <entryFree>
+               <term n="262">Conmover</term>
+            </entryFree>
+            <entryFree>
+               <term n="264">Disciplinas humanísticas</term>
+            </entryFree>
+            <entryFree>
+               <term n="286">Diástole</term>
+            </entryFree>
+            <entryFree>
+               <term n="147">Dístico</term>
+            </entryFree>
+            <entryFree>
+               <term n="283">Equivalencia de finales</term>
+            </entryFree>
+            <entryFree>
+               <term n="4">Estrofa</term>
+            </entryFree>
+            <entryFree>
+               <term n="225">Facultades poéticas</term>
+            </entryFree>
+            <entryFree>
+               <term n="289">Hemistiquio</term>
+            </entryFree>
+            <entryFree>
+               <term n="290">Heptasílabo</term>
+            </entryFree>
+            <entryFree>
+               <term n="272">Himno</term>
+            </entryFree>
+            <entryFree>
+               <term n="228">Ingenium</term>
+            </entryFree>
+            <entryFree>
+               <term n="276">Licencias métricas</term>
+            </entryFree>
+            <entryFree>
+               <term n="268">Literatura</term>
+            </entryFree>
+            <entryFree>
+               <term n="311">Metonimia</term>
+            </entryFree>
+            <entryFree>
+               <term n="168">Metrificar</term>
+            </entryFree>
+            <entryFree>
+               <term n="256">Origen italiano</term>
+            </entryFree>
+            <entryFree>
+               <term n="257">Origen latino</term>
+            </entryFree>
+            <entryFree>
+               <term n="163">Respuesta</term>
+            </entryFree>
+            <entryFree>
+               <term n="160">Poema</term>
+            </entryFree>
+            <entryFree>
+               <term n="182">Poeta</term>
+            </entryFree>
+            <entryFree>
+               <term n="193">Poetría</term>
+            </entryFree>
+            <entryFree>
+               <term n="167">Prácticas compositivas</term>
+            </entryFree>
+            <entryFree>
+               <term n="297">Recurso literario</term>
+            </entryFree>
+            <entryFree>
+               <term n="301">Recurso literario morfológico</term>
+            </entryFree>
+            <entryFree>
+               <term n="265">Retórica</term>
+            </entryFree>
+            <entryFree>
+               <term n="73">Rima</term>
+            </entryFree>
+            <entryFree>
+               <term n="250">Rima asonante</term>
+            </entryFree>
+            <entryFree>
+               <term n="249">Rima consonante</term>
+            </entryFree>
+            <entryFree>
+               <term n="27">Romance</term>
+            </entryFree>
+            <entryFree>
+               <term n="143">Silábico</term>
+            </entryFree>
+            <entryFree>
+               <term n="277">Sinalefa</term>
+            </entryFree>
+            <entryFree>
+               <term n="255">Sílaba</term>
+            </entryFree>
+            <entryFree>
+               <term n="293">Terceto</term>
+            </entryFree>
+            <entryFree>
+               <term n="295">Tipo de rima criterio estilística</term>
+            </entryFree>
+            <entryFree>
+               <term n="208">Trovador</term>
+            </entryFree>
+            <entryFree>
+               <term n="210">Trovar</term>
+            </entryFree>
+            <entryFree>
+               <term n="244">Tónica</term>
+            </entryFree>
+            <entryFree>
+               <term n="274">Versificación</term>
+            </entryFree>
+            <entryFree>
+               <term n="241">Versificación castellana</term>
+            </entryFree>
+            <entryFree>
+               <term n="3">Verso</term>
+            </entryFree>
+            <entryFree>
+               <term n="288">Verso compuesto</term>
+            </entryFree>
+         </div>
+      </body>
+   </text>
+</TEI>

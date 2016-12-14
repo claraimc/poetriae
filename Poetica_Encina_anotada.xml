@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="../tei_lite-poeticas.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei_lite-poeticas.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -49,61 +48,6 @@
 			<creation>
 				<origDate when="1496">1496</origDate>
 			</creation>
-			<textClass>
-				<keywords scheme="http://vocabularios.caicyt.gov.ar/pmc/" xml:id="PMC">
-					<term n="235">Arte poética</term>
-					<term n="193">Poetría</term>
-					<term n="265">Retórica</term>
-					<term n="268">Literatura</term>
-					<term n="262">Conmover</term>
-					<term n="272">Himno</term>
-					<term n="163">Poema</term>
-					<term n="274">Versificación</term>
-					<term n="210">Trovar</term>
-					<term n="73">Rima</term>
-					<term n="242">Componentes</term>
-					<term n="143">Silábico</term>
-					<term n="227">Ars</term>
-					<term n="228">Ingenium</term>
-					<term n="225">Facultades poéticas</term>
-					<term n="264">Disciplinas humanísticas</term>
-					<term n="265">Retórica</term>
-					<term n="182">Poeta</term>
-					<term n="208">Trovador</term>
-					<term n="168">Metrificar</term>
-					<term n="249">Rima consonante</term>
-					<term n="250">Rima asonante</term>
-					<term n="276">Licencias métricas</term>
-					<term n="3">Verso</term>
-					<term n="160">Poema</term>
-					<term n="4">Estrofa</term>
-					<term n="156">Arte mayor</term>
-					<term n="157">Arte menor</term>
-					<term n="255">Sílaba</term>
-					<term n="277">Sinalefa</term>
-					<term n="283">Equivalencia de finales</term>
-					<term n="286">Diástole</term>
-					<term n="289">Hemistiquio</term>
-					<term n="288">Verso compuesto</term>
-					<term n="241">Versificación castellana</term>
-					<term n="290">Heptasílabo</term>
-					<term n="295">Tipo de rima criterio estilística</term>
-					<term n="245">Átona</term>
-					<term n="244">Tónica</term>
-					<term n="147">Dístico</term>
-					<term n="293">Terceto</term>
-					<term n="27">Romance</term>
-					<term n="297">Recurso literario</term>
-					<term n="301">Recurso literario morfológico</term>
-					<term n="304">Apócope</term>
-					<term n="284">Cambio de posición acentual</term>
-					<term n="311">Metonimia</term>
-					<term n="167">Prácticas compositivas</term>
-					<term n="256">Origen italiano</term>
-					<term n="257">Origen latino</term>
-
-				</keywords>
-			</textClass>
 		</profileDesc>
 		<revisionDesc>
 			<change when="2016-01-31"/>
@@ -115,67 +59,61 @@
 			<div>
 				<head>El Arte de Poesía</head>
 				<div>
-					<head>AL MUY ESCLARECIDO Y BIENAVENTURADO <ref
-							target="http://es.dbpedia.org/page/Juan_de_Arag%C3%B3n_(pr%C3%ADncipe_de_Asturias)"
-							>PRÍNCIPE DON JUAN</ref></head>
+					<head>AL MUY ESCLARECIDO Y BIENAVENTURADO <name corresp="#juan">PRÍNCIPE DON
+							JUAN</name></head>
 					<head>COMIENÇA EL PROHEMIO EN VNA ARTE D’POESÍA CASTELLANA COMPUESTA POR JUAN
 						DEL ENZINA</head>
 
 					<p>Quán ligero y penetrable fuesse el ingenio de los antiguos y cuán enemigos de
 						la ociosidad, muy esclarecido príncipe, notorio es a vuestra alteza; como
-						cuenta <ref target="http://viaf.org/viaf/310519475/">Cicerón de Africano el
-							mayor</ref>, que dezía nunca estar menos ocioso que quando estava
-						ocioso, ni menos solo que quando solo, dando a entender que nunca holgava su
-						juyzio; y según sentencia de aquel <ref
-							target="http://dbpedia.org/page/Cato_the_Elder">Catón</ref> censorino: no
-						solamente son obligados los hombres que biven según razón a dar cuenta de
-						sus negocios, mas aun también del tiempo de su ocio, quanto más los que
-						fuemos dichosos de alcançar a ser súditos y bivir debaxo de tan poderosos y
-						cristianíssimos príncipes, que assí artes bélicas como de paz están ya tan
-						puestas en perfeción en estos reynos por su buena governación, que quien
-						piensa las cosas que por armas se han acabado, no parece aver quedado tiempo
-						de pacificarlas como oy están; ya no nos falta de buscar sino escoger en qué
+						cuenta <name corresp="#ciceron">Cicerón de Africano el mayor</name>, que
+						dezía nunca estar menos ocioso que quando estava ocioso, ni menos solo que
+						quando solo, dando a entender que nunca holgava su juyzio; y según sentencia
+						de aquel <name corresp="#caton">Catón</name> censorino: no solamente son
+						obligados los hombres que biven según razón a dar cuenta de sus negocios,
+						mas aun también del tiempo de su ocio, quanto más los que fuemos dichosos de
+						alcançar a ser súditos y bivir debaxo de tan poderosos y cristianíssimos
+						príncipes, que assí artes bélicas como de paz están ya tan puestas en
+						perfeción en estos reynos por su buena governación, que quien piensa las
+						cosas que por armas se han acabado, no parece aver quedado tiempo de
+						pacificarlas como oy están; ya no nos falta de buscar sino escoger en qué
 						gastemos el tiempo, pues lo tenemos qual lo desseamos. ¿Qué puede ser en el
-						ocio más alegre y más proprio de vmanidad, como <ref
-							target="http://viaf.org/viaf/99852973/">Tulio</ref> dize, que sermón
-						gracioso y polido? Y pues entre las otras cosas en que ecedemos a los
-						animales brutos es vna de las principales que, hablando podemos espremir lo
-						que sentimos, ¿quién no trabajará por eceder a otro en aquello que los
-						hombres eceden a los animales? Bien parece vuestra real ecelencia aver leydo
-						aquello que Ciro usava dezir: Cosa torpe es imperar el que no ecede a sus
-						súditos en todo género de virtud. Y vuestra muy alta señoría, que tiene tal
-						dechado de que sacar mirando a las ecelencias y virtudes de sus claríssimos
-						padres, bien lo pone por la obra pues, dexados los primeros rudimentos y
-						cunábulos, entre sus claras vitorias se ha criado en el gremio de la dulce
-						filosofía, favoreciendo los ingenios de sus súditos, incitándolos a la
-						ciencia con enxemplo de sí mesmo. <content_aim
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:235">Assí que,
-							mirando todas estas cosas, acordé de hazer vn arte de poesía castellana,
-							por donde se pueda mejor sentir lo bien o mal trobado, y para enseñar a
-							trobar en nuestra lengua, si enseñar se puede, porque es muy gentil
-							exercicio en el tiempo de ociosidad</content_aim>. Y confiando en la
-						virtud de vuestra real magestad, atrevíme a dedicar esta obra a su ecelente
-						ingenio, donde ya florecen los remos de la sabiduría, para, si fuere
-						servido, estando desocupado de sus arduos negocios, exercitarse en cosas
-						poéticas y trobadas en nuestro castellano estilo, <content_aim
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:235">porque lo que
-							ya su bivo juyzio por natural razón conoce, lo pueda ver puesto en arte,
-							según lo que mi flaco saber alcança; no porque crea que los poetas y
-							trobadores se ayan de regir por ella, siendo yo el menor dellos, mas por
-							no ser ingrato a esta facultad </content_aim>, si algún nombre me ha
-						dado, o si merezco tener siquiera el más baxo lugar entre los poetas de
-						nuestra nación. Y assimesmo porque, según dize el dotíssimo maestro <ref
-							target="http://es.dbpedia.org/page/Antonio_de_Nebrija">Antonio de
-							Lebrix</ref>a, aquel que desterró de nuestra España los barbarismos que
+						ocio más alegre y más proprio de vmanidad, como <name corresp="#tulio"
+							>Tulio</name> dize, que sermón gracioso y polido? Y pues entre las otras
+						cosas en que ecedemos a los animales brutos es vna de las principales que,
+						hablando podemos espremir lo que sentimos, ¿quién no trabajará por eceder a
+						otro en aquello que los hombres eceden a los animales? Bien parece vuestra
+						real ecelencia aver leydo aquello que Ciro usava dezir: Cosa torpe es
+						imperar el que no ecede a sus súditos en todo género de virtud. Y vuestra
+						muy alta señoría, que tiene tal dechado de que sacar mirando a las
+						ecelencias y virtudes de sus claríssimos padres, bien lo pone por la obra
+						pues, dexados los primeros rudimentos y cunábulos, entre sus claras vitorias
+						se ha criado en el gremio de la dulce filosofía, favoreciendo los ingenios
+						de sus súditos, incitándolos a la ciencia con enxemplo de sí mesmo. <rs
+							type="aim" key="235">Assí que, mirando todas estas cosas, acordé de
+							hazer vn arte de poesía castellana, por donde se pueda mejor sentir lo
+							bien o mal trobado, y para enseñar a trobar en nuestra lengua, si
+							enseñar se puede, porque es muy gentil exercicio en el tiempo de
+							ociosidad</rs>. Y confiando en la virtud de vuestra real magestad,
+						atrevíme a dedicar esta obra a su ecelente ingenio, donde ya florecen los
+						remos de la sabiduría, para, si fuere servido, estando desocupado de sus
+						arduos negocios, exercitarse en cosas poéticas y trobadas en nuestro
+						castellano estilo, <rs type="aim" key="235">porque lo que ya su bivo juyzio
+							por natural razón conoce, lo pueda ver puesto en arte, según lo que mi
+							flaco saber alcança; no porque crea que los poetas y trobadores se ayan
+							de regir por ella, siendo yo el menor dellos, mas por no ser ingrato a
+							esta facultad </rs>, si algún nombre me ha dado, o si merezco tener
+						siquiera el más baxo lugar entre los poetas de nuestra nación. Y assimesmo
+						porque, según dize el dotíssimo maestro <name corresp="#lebrix">Antonio de
+							Lebrix</name>a, aquel que desterró de nuestra España los barbarismos que
 						en la lengua latina se avían criado, vna de las causas que le movieron a
 						hazer arte de romance, fue que creýa nuestra lengua estar agora más empinada
 						y polida que jamás estuvo, de donde más se podía temer el decendimiento que
-						la subida. <content_aim xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:235">Y assí yo por esta mesma razón, creyendo nunca aver
-							estado tan puesta en la cumbre nuestra poesía y manera de trobar,
-							parecióme ser cosa muy provechosa ponerla en arte y encerrarla debaxo de
-							ciertas leyes y reglas, porque ninguna antigüedad de tiempos le pueda
-							traer olvido</content_aim>. Y digo estar agora puesta en la cumbre a lo
+						la subida. <rs type="aim" key="235">Y assí yo por esta mesma razón, creyendo
+							nunca aver estado tan puesta en la cumbre nuestra poesía y manera de
+							trobar, parecióme ser cosa muy provechosa ponerla en arte y encerrarla
+							debaxo de ciertas leyes y reglas, porque ninguna antigüedad de tiempos
+							le pueda traer olvido</rs>. Y digo estar agora puesta en la cumbre a lo
 						menos quanto a las observaciones, que no dudo nuestros antecessores aver
 						escrito cosas más dinas de memoria, porque allende de tener más bivos
 						ingenios, llegaron primero y aposentáronse en las mejores razones y
@@ -184,42 +122,38 @@
 						ello; por lo qual será forçado cerrar la boca o hablar por boca de otro,
 						que, según dize vn común proverbio: «No ay cosa que no esté dicha». Y bien
 						creo aver otros que primero que yo tomassen este trabajo y más copiosamente,
-						mas es cierto que a mí noticia no ha llegado, salvo aquello que <ref
-							target="http://es.dbpedia.org/page/Antonio_de_Nebrija">el notable maestro
-							de Lebrixa</ref> en su arte de romance acerca desta facultad muy
-						perfetamente puso. Mas yo no entiende entrar en tan estrecha cuenta: lo vno
-						por la falta de mi saber, y lo otro porque no quiero tocar más de lo que a
-						nuestra lengua satisfaze, y algo de lo que toca a la dinidad d’ la poesía,
-						que no en poca estima y veneración era tenida entre los antiguos, pues el
-						esordio y invención della fue referido a sus dioses, assí como Apolo,
-						Mercurio y Baco, y a las musas, según parece por las invocaciones de los
-						antiguos poetas, de donde nosotros las tomamos, no porque creamos como ellos
-						ni los tengamos por dioses invocándolos, que sería grandíssimo error y
-						eregía, mas por seguir su gala y orden poética, que es aver de proponer,
-						invocar y narrar o contar en las ficiones graves y arduas, de tal manera
-						que, <content_definition xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:193">siendo fición la obra, es mucha razón que no menos sea
-							fingida y no verdadera la invocación della</content_definition>. Mas
-						quando hazemos alguna obra principal de devoción o que toque a nuestra fe,
-						invocamos al que es la mesma verdad o a su Madre preciosa o a algunos santos
-						que sean intercessores y medianeros para alcançarnos la gracia. Hallamos
-						esso mesmo acerca de los antiguos, que sus oráculos y vaticinaciones se
-						davan en versos; y de aquí vino <term cRef="#PMC:263">los poetas llamarse
-							vates, assí como hombres que cantan las cosas divinas</term>.
-							<content_origin xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:268">Y no solamente la poesía tuvo esta preminencia en la
-							vana gentilidad, mas aun muchos libros del Testamento viejo, según da
-							testimonio San Gerónimo, fueron escritos en metro en aquella lengua
-							hebrayca, la qual, según nuestros dotores, fue más antigua que la de los
-							griegos, porque no se hallará escritura griega tan antigua como los
-							cinco libros de Moysén; y no menos en Grecia, que fue la madre de las
-							liberales artes, podemos creer la poesía ser más antigua
-						</content_origin> que <term cRef="#PMC:265">la oratoria</term>. Quanto al
-						efeto de la poesía, quiérome contentar con dos enxemplos que escrive <ref
-							target="http://viaf.org/viaf/24616821/">Justino</ref> en su Epitoma,
-						porque si oviesse d’contar todas las alabanças y efetos della, por larga que
-						fuesse la vida antes faltaría el tiempo que la materia. <content_aim
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:262">Y es el
+						mas es cierto que a mí noticia no ha llegado, salvo aquello que <name
+							corresp="#nebrija">el notable maestro de Lebrixa</name> en su arte de
+						romance acerca desta facultad muy perfetamente puso. Mas yo no entiende
+						entrar en tan estrecha cuenta: lo vno por la falta de mi saber, y lo otro
+						porque no quiero tocar más de lo que a nuestra lengua satisfaze, y algo de
+						lo que toca a la dinidad d’ la poesía, que no en poca estima y veneración
+						era tenida entre los antiguos, pues el esordio y invención della fue
+						referido a sus dioses, assí como Apolo, Mercurio y Baco, y a las musas,
+						según parece por las invocaciones de los antiguos poetas, de donde nosotros
+						las tomamos, no porque creamos como ellos ni los tengamos por dioses
+						invocándolos, que sería grandíssimo error y eregía, mas por seguir su gala y
+						orden poética, que es aver de proponer, invocar y narrar o contar en las
+						ficiones graves y arduas, de tal manera que, <rs type="definition" key="193"
+							>siendo fición la obra, es mucha razón que no menos sea fingida y no
+							verdadera la invocación della</rs>. Mas quando hazemos alguna obra
+						principal de devoción o que toque a nuestra fe, invocamos al que es la mesma
+						verdad o a su Madre preciosa o a algunos santos que sean intercessores y
+						medianeros para alcançarnos la gracia. Hallamos esso mesmo acerca de los
+						antiguos, que sus oráculos y vaticinaciones se davan en versos; y de aquí
+						vino <rs key="263">los poetas llamarse vates, assí como hombres que cantan
+							las cosas divinas</rs>. <rs type="origin" key="268">Y no solamente la
+							poesía tuvo esta preminencia en la vana gentilidad, mas aun muchos
+							libros del Testamento viejo, según da testimonio San Gerónimo, fueron
+							escritos en metro en aquella lengua hebrayca, la qual, según nuestros
+							dotores, fue más antigua que la de los griegos, porque no se hallará
+							escritura griega tan antigua como los cinco libros de Moysén; y no menos
+							en Grecia, que fue la madre de las liberales artes, podemos creer la
+							poesía ser más antigua </rs> que <rs key="265">la oratoria</rs>. Quanto
+						al efeto de la poesía, quiérome contentar con dos enxemplos que escrive
+							<name corresp="#justino">Justino</name> en su Epitoma, porque si oviesse
+						d’contar todas las alabanças y efetos della, por larga que fuesse la vida
+						antes faltaría el tiempo que la materia. <rs type="aim" key="262">Y es el
 							primero enxemplo que como entre los atenienses y megarenses se
 							recibiessen grandes daños de vna parte a la otra, sobre la possessión de
 							la isla Salamina, fatigados ambos pueblos de las continuas muertes,
@@ -227,484 +161,420 @@
 							a qualquiera que hiziesse mención de tal demanda. Solón, legislador de
 							Atenas, viendo el daño de su república, simulándose loco salió delante
 							todo el pueblo y amonestándolo en versos le movió de tal manera que no
-							se dilató más la guerra, de la qual consiguieron vitoria</content_aim>.
-						El segundo enxemplo es que, teniendo los lacedemonios guerra con los
-						messenios, fueles dicho por sus oráculos que no podían vencer sin capitán
-						ateniense; y los atenienses, en menosprecio, embiáronles un poeta coxo,
-						llamado Tirteo, para que lo tomassen por capitán; los lacedemonios, muy
-						fatigados con los daños recebidos, se bolvían a su tierra, más con mengua
-						que con onrra, a los quales el poeta Tirteo, <content_aim
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:262">con la fuerça
-							de sus versos de tal manera inflamó, que, olvidados de sus proprias
-							vidas mudaron el propósito y, bolviendo, quedaron
-							vitoriosos</content_aim>. <content_aim
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:262">Y no en vano
-							cantaron los poetas que Orfeo ablandava las piedras con sus dulces
-							versos, pues que la suavidad de la poesía enternecía los duros coraçones
-							de los tiranos, como parece por vna epístola de Fálaris, tirano famoso
-							en crueldad, que no por otra cosa otorgó la vida a Estesícoro, poeta,
-							salvo porque hazía graciosos versos. Y Pisístrato, tirano de Atenas, no
-							halló otro camino para echar de sí el odio de la tiranía y gratificarse
-							con el pueblo, salvo mandando buscar los versos de Homero, propuesto
-							premio a quien los pusiesse por orden</content_aim>. Pues ¿qué diré en
-						nuestra religión cristiana quánto conmueven a devoción los devotos y dulces
-							<term cRef="#PMC:272">ynos</term>, cuyos autores fueron Ylario, Ambrosio y
-						otros muy prudentes y santíssimos varones? Y <ref
-							target="http://viaf.org/viaf/66806872/">santo Agustino</ref> escrivió <term
-							cRef="#PMC:274">seys libros desta facultad, intitulados Música, para
-							descanso de otros más graves estudios, en los quales seys libros trata
-							de los géneros de versos y de quántos pies consta cada verso, y cada
-							pie, quántas sílabas</term>. <term cRef="#PMC:268">Suficientemente creo
-							aver provado la autoridad y antigüedad d’la poesía y en quánta estima
-							fue tenida acerca de los antiguos y de los nuestros; aunque algunos ay
-							que, queriendo parecer graves y severos, malinamente la destierran de
-							entre los umanos como ciencia ociosa</term>, bolviendo a la facultad la
-						culpa de aquellos que mal usan della, a los quales devía bastar, para
-						convencer de su error, la multitud de poetas que florecieron en Grecia y en
-						Roma, que cierto si no fuera facultad onesta, no creo que Sófocles alcançara
-						magistrados, preturas y capitanías en Atenas, madre de las ciencias de
-						vmanidad. Mas dexados estos con su livor y malicia, bienaventurado príncipe,
-						suplico a vuestra real señoría para en tiempo de ocio reciba este pequeño
-						servicio por muestra de mi desseo. </p>
+							se dilató más la guerra, de la qual consiguieron vitoria</rs>. El
+						segundo enxemplo es que, teniendo los lacedemonios guerra con los messenios,
+						fueles dicho por sus oráculos que no podían vencer sin capitán ateniense; y
+						los atenienses, en menosprecio, embiáronles un poeta coxo, llamado Tirteo,
+						para que lo tomassen por capitán; los lacedemonios, muy fatigados con los
+						daños recebidos, se bolvían a su tierra, más con mengua que con onrra, a los
+						quales el poeta Tirteo, <rs type="aim" key="262">con la fuerça de sus versos
+							de tal manera inflamó, que, olvidados de sus proprias vidas mudaron el
+							propósito y, bolviendo, quedaron vitoriosos</rs>. <rs type="aim"
+							key="262">Y no en vano cantaron los poetas que Orfeo ablandava las
+							piedras con sus dulces versos, pues que la suavidad de la poesía
+							enternecía los duros coraçones de los tiranos, como parece por vna
+							epístola de Fálaris, tirano famoso en crueldad, que no por otra cosa
+							otorgó la vida a Estesícoro, poeta, salvo porque hazía graciosos versos.
+							Y Pisístrato, tirano de Atenas, no halló otro camino para echar de sí el
+							odio de la tiranía y gratificarse con el pueblo, salvo mandando buscar
+							los versos de Homero, propuesto premio a quien los pusiesse por
+							orden</rs>. Pues ¿qué diré en nuestra religión cristiana quánto
+						conmueven a devoción los devotos y dulces <rs key="272">ynos</rs>, cuyos
+						autores fueron Ylario, Ambrosio y otros muy prudentes y santíssimos varones?
+						Y <name corresp="#agustin">santo Agustino</name> escrivió <rs key="274">seys
+							libros desta facultad, intitulados Música, para descanso de otros más
+							graves estudios, en los quales seys libros trata de los géneros de
+							versos y de quántos pies consta cada verso, y cada pie, quántas
+							sílabas</rs>. <rs key="268">Suficientemente creo aver provado la
+							autoridad y antigüedad d’la poesía y en quánta estima fue tenida acerca
+							de los antiguos y de los nuestros; aunque algunos ay que, queriendo
+							parecer graves y severos, malinamente la destierran de entre los umanos
+							como ciencia ociosa</rs>, bolviendo a la facultad la culpa de aquellos
+						que mal usan della, a los quales devía bastar, para convencer de su error,
+						la multitud de poetas que florecieron en Grecia y en Roma, que cierto si no
+						fuera facultad onesta, no creo que Sófocles alcançara magistrados, preturas
+						y capitanías en Atenas, madre de las ciencias de vmanidad. Mas dexados estos
+						con su livor y malicia, bienaventurado príncipe, suplico a vuestra real
+						señoría para en tiempo de ocio reciba este pequeño servicio por muestra de
+						mi desseo. </p>
 				</div>
 				<div>
 					<head>Capítulo primero</head>
-					<head><content_origin xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:268"
-							>DEL NACIMIENTO Y ORIGEN DE LA POESÍA CASTELLANA</content_origin>, Y DE
-						QUIÉN RECIBIMOS NUESTRA MANERA DE <term cRef="#PMC:210">TROBAR</term></head>
-					<p><content_origin xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:73"
-							>Sentencia es muy averiguada entre los poetas latinos ser por vicio
-							reputado el acabar de los versos en consonantes y en semejança de
-							palabras</content_origin>, aunque algunas vezes hallamos los poetas de
-						mucha autoridad, con el atrevimiento de su saber, aver usado y puesto por
-						gala aquello que a otros fuera condenación de su fama, como parece por <ref
-							target="http://viaf.org/viaf/50144648317674718529/">Virgilio</ref> en el
-						epigrama que dize: Sic vos non vobis, etc. Mas los santos y prudentes
-						varones que compusieron los <term cRef="#PMC:163 #PMC:272">ynos</term>
-						<content_definition xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:242">en nuestra christiana religión, escogieron por bueno lo
-							que acerca de los poetas era tenido por malo, que gran parte de los ynos
-							van compuestos</content_definition>
-						<content_definition xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:73">por consonantes</content_definition> y
-							<content_definition xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:143">encerrados debaxo de cierto número de
-							sílabas</content_definition>. Y no sin causa estos sabios y dotíssimos
-						varones en este exercicio se ocuparon, porque bien mirado, estando el
-						sentido repartido entre la letra y el canto, muy mejor puede sentir y
-							<content_origin xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:73">acordarse de lo que va cantando por consonantes que en
-							otra manera, porque no ay cosa que más a la memoria nos traya lo passado
-							que la semejança dello</content_origin>. <content_origin
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:256 #PMC:257">De aquí creo aver venido
-							nuestra manera de trobar, aunque no dudo que en Ytalia floreciesse
-							primero que en nuestra España y de allí decendiesse a nosotros; porque
-							si bien queremos considerar, según sentencia de Virgilio, allí fue el
-							solar del linage latino. Y quando Roma se enseñoreó de aquesta tierra,
-							no solamente recebimos sus leyes y constituciones, mas aun el romance,
-							según su nombre da testimonio, que no es otra cosa nuestra lengua sino
-							latín corrompido. Pues, ¿por qué no confessaremos aquello que del latín
+					<head><rs type="origin" key="268">DEL NACIMIENTO Y ORIGEN DE LA POESÍA
+							CASTELLANA</rs>, Y DE QUIÉN RECIBIMOS NUESTRA MANERA DE <rs key="210"
+							>TROBAR</rs></head>
+					<p><rs type="origin" key="73">Sentencia es muy averiguada entre los poetas
+							latinos ser por vicio reputado el acabar de los versos en consonantes y
+							en semejança de palabras</rs>, aunque algunas vezes hallamos los poetas
+						de mucha autoridad, con el atrevimiento de su saber, aver usado y puesto por
+						gala aquello que a otros fuera condenación de su fama, como parece por <name
+							corresp="#virgilio">Virgilio</name> en el epigrama que dize: Sic vos non
+						vobis, etc. Mas los santos y prudentes varones que compusieron los <rs
+							key="163 272">ynos</rs>
+						<rs type="definition" key="242">en nuestra christiana religión, escogieron
+							por bueno lo que acerca de los poetas era tenido por malo, que gran
+							parte de los ynos van compuestos</rs>
+						<rs type="definition" key="73">por consonantes</rs> y <rs type="definition"
+							key="143">encerrados debaxo de cierto número de sílabas</rs>. Y no sin
+						causa estos sabios y dotíssimos varones en este exercicio se ocuparon,
+						porque bien mirado, estando el sentido repartido entre la letra y el canto,
+						muy mejor puede sentir y <rs type="origin" key="73">acordarse de lo que va
+							cantando por consonantes que en otra manera, porque no ay cosa que más a
+							la memoria nos traya lo passado que la semejança dello</rs>. <rs
+							type="origin" key="256 257">De aquí creo aver venido nuestra manera de
+							trobar, aunque no dudo que en Ytalia floreciesse primero que en nuestra
+							España y de allí decendiesse a nosotros; porque si bien queremos
+							considerar, según sentencia de Virgilio, allí fue el solar del linage
+							latino. Y quando Roma se enseñoreó de aquesta tierra, no solamente
+							recebimos sus leyes y constituciones, mas aun el romance, según su
+							nombre da testimonio, que no es otra cosa nuestra lengua sino latín
+							corrompido. Pues, ¿por qué no confessaremos aquello que del latín
 							deciende, averlo recebido de quien la lengua latina y el romance
-							recebimos?</content_origin> Quanto más que claramente parece en la
-						lengua ytaliana aver avido muy más antiguos poetas que en la nuestra, assí
-						como el <ref target="http://viaf.org/viaf/97105654/">Dante</ref> y <ref
-							target="http://viaf.org/viaf/39382430">Francisco Petrarca</ref> y otros
-						notables varones que fueron antes y después, de donde muchos de los nuestros
-						hurtaron gran copia de singulares sentencias, el qual hurto, como dize <ref
-							target="http://viaf.org/viaf/50144648317674718529/">Virgilio, no deve ser
-							vituperado</ref>, mas dino de mucho loor quando de vna lengua en otra se
-						sabe galanamente cometer. <content_origin
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:256">Y si queremos arguyr de la
-							etimología del vocablo, si bien miramos, «trobar» vocablo ytaliano es,
-							que no quiere dezir otra cosa «trobar» en lengua ytaliana sino
-							«hallar»</content_origin>. Pues, <content_aim
-							xmlns="http://www.example.org/ns/Poeticas" cRef="210">¿qué cosa es
-							trobar, en nuestra lengua, sino hallar sentencias y razones y
-							consonantes y pies de cierta medida adonde las incluyr y
-							encerrar?</content_aim>
-						<content_origin xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:256">Assí que,
-							concluyamos luego el trobar aver cobrado sus fuerças en Ytalia, y de
-							allí esparzídolas por nuestra España, adonde creo que ya florece más que
-							en otra ninguna parte</content_origin>. </p>
+							recebimos?</rs> Quanto más que claramente parece en la lengua ytaliana
+						aver avido muy más antiguos poetas que en la nuestra, assí como el <name
+							corresp="#dante">Dante</name> y <name corresp="#petrarca">Francisco
+							Petrarca</name> y otros notables varones que fueron antes y después, de
+						donde muchos de los nuestros hurtaron gran copia de singulares sentencias,
+						el qual hurto, como dize <name corresp="#virgilio">Virgilio, no deve ser
+							vituperado</name>, mas dino de mucho loor quando de vna lengua en otra
+						se sabe galanamente cometer. <rs type="origin" key="256">Y si queremos
+							arguyr de la etimología del vocablo, si bien miramos, «trobar» vocablo
+							ytaliano es, que no quiere dezir otra cosa «trobar» en lengua ytaliana
+							sino «hallar»</rs>. Pues, <rs type="aim" key="210">¿qué cosa es trobar,
+							en nuestra lengua, sino hallar sentencias y razones y consonantes y pies
+							de cierta medida adonde las incluyr y encerrar?</rs>
+						<rs type="origin" key="256">Assí que, concluyamos luego el trobar aver
+							cobrado sus fuerças en Ytalia, y de allí esparzídolas por nuestra
+							España, adonde creo que ya florece más que en otra ninguna parte</rs>.
+					</p>
 				</div>
 				<div>
 
 					<head>Capítulo II</head>
 					<head>DE CÓMO CONSISTE EN ARTE LA POESÍA Y EL TROBAR</head>
-					<p> Aunque otra cosa no respondiéssemos para provar que <content_definition
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:193 #PMC:227">la poesía consiste en arte</content_definition>, bastava
-						el juyzio de los claríssimos autores que intitularon De arte poética los
-						libros que desta facultad escrivieron. <term cRef="#PMC:227">Y ¿quién será
-							tan fuera de razón que, llamándose arte el oficio de texer o herrería, o
-							hazer vasijas de barro o cosas semejantes, piense la poesía y el trobar
-							aver venido sin arte en tanta dinidad</term>? <term cRef="#PMC:228">Bien
-							sé que muchos contenderán para en esta facultad ninguna otra cosa
-							requerirse, salvo el buen natural; y concedo ser esto lo principal y el
-							fundamento</term>; <content_definition
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:193 #PMC:225">mas también afirmo polirse y alindarse mucho con las
-							osservaciones del arte, que, si al buen ingenio no se juntasse el arte,
-							sería como vna tierra frutífera y no labrada</content_definition>.
-						Conviene luego confessar desta facultad lo que <ref
-							target="http://viaf.org/viaf/99852973/">Cicerón</ref> en el De perfeto
-						oratore, y lo que los professores de gramática suelen hazer en la difinición
-						della; y lo que creo ser de todas las otras artes, que no son sino
-						osservaciones sacadas de la flor del uso de varones dotíssimos, y reduzidas
-						en reglas y precetos. Porque, según dizen los que hablaron del arte, <term
-							cRef="#PMC:264">todas las artes conviene que tengan cierta
-						materia</term>; <ref target="#PMC:265">y algunos afirman la oratoria no tener
-							cierta materia, a los quales convence <ref
-								target="http://viaf.org/viaf/34451872">Quintiliano</ref> diziendo que
-							el <content_aim xmlns="http://www.example.org/ns/Poeticas"
-								cRef="#PMC:265">fin del orador o retórico es dezir cosas, aunque
-								algunas vezes no verdaderas, pero verisímiles, y lo último es
-								persuadir y demulcir el oýdo</content_aim></ref>. Y si esto es común
+					<p> Aunque otra cosa no respondiéssemos para provar que <rs type="definition"
+							key="193 227">la poesía consiste en arte</rs>, bastava el juyzio de los
+						claríssimos autores que intitularon De arte poética los libros que desta
+						facultad escrivieron. <rs key="227">Y ¿quién será tan fuera de razón que,
+							llamándose arte el oficio de texer o herrería, o hazer vasijas de barro
+							o cosas semejantes, piense la poesía y el trobar aver venido sin arte en
+							tanta dinidad</rs>? <rs key="228">Bien sé que muchos contenderán para en
+							esta facultad ninguna otra cosa requerirse, salvo el buen natural; y
+							concedo ser esto lo principal y el fundamento</rs>; <rs
+							type="definition" key="193 225">mas también afirmo polirse y alindarse
+							mucho con las osservaciones del arte, que, si al buen ingenio no se
+							juntasse el arte, sería como vna tierra frutífera y no labrada</rs>.
+						Conviene luego confessar desta facultad lo que <name corresp="#ciceron"
+							>Cicerón</name> en el De perfeto oratore, y lo que los professores de
+						gramática suelen hazer en la difinición della; y lo que creo ser de todas
+						las otras artes, que no son sino osservaciones sacadas de la flor del uso de
+						varones dotíssimos, y reduzidas en reglas y precetos. Porque, según dizen
+						los que hablaron del arte, <rs key="264">todas las artes conviene que tengan
+							cierta materia</rs>; <!--Comprueba que este anidamiento es correcto-->
+						<rs key="265">y algunos afirman la oratoria no tener cierta materia, a los
+							quales convence <name corresp="#quintiliano">Quintiliano</name> diziendo
+							que el <rs type="aim" key="265">fin del orador o retórico es dezir
+								cosas, aunque algunas vezes no verdaderas, pero verisímiles, y lo
+								último es persuadir y demulcir el oýdo</rs></rs>. Y si esto es común
 						a la poesía con la oratoria o retórica, queda lo principal: conviene a
 						saber, yr incluido en números ciertos, para lo qual el que no discutiere los
 						autores y precetos, es impossible que no le engañe el oýdo, porque, según
-						dotrina de <ref target="http://viaf.org/viaf/100218964">Boecio</ref> en el
-						libro De musica, muchas vezes nos engañan los sentidos; por tanto, devemos
-						dar mayor crédito a la razón. Comoquiera que, según nos demuestra <ref
-							target="http://viaf.org/viaf/99852973/">Tulio</ref> y <ref
-								target="http://viaf.org/viaf/34451872">Quintiliano</ref>, <term cRef="#PMC:255">números ay que deve seguir el orador, y huyr otros</term>;
-						mas esto ha de ser más dissimuladamente y no tiene de yr astrito a ellos
-						como el poeta, que no es éste su fin. </p>
+						dotrina de <name corresp="#boecio">Boecio</name> en el libro De musica,
+						muchas vezes nos engañan los sentidos; por tanto, devemos dar mayor crédito
+						a la razón. Comoquiera que, según nos demuestra <name corresp="#tulio"
+							>Tulio</name> y <name corresp="#quintiliano">Quintiliano</name>, <rs
+							key="255">números ay que deve seguir el orador, y huyr otros</rs>; mas
+						esto ha de ser más dissimuladamente y no tiene de yr astrito a ellos como el
+						poeta, que no es éste su fin. </p>
 				</div>
 
 				<div>
 					<head>Capítulo III</head>
-					<head>DE LA DIFERENCIA QUE AY ENTRE <term cRef="#PMC:182">POETA</term> Y <term
-							cRef="#PMC:208">TROBADOR</term></head>
-					<p>Según es común uso de hablar en nuestra lengua, <term cRef="#PMC:182 #PMC:208">al trobador llaman poeta y al poeta, trobador, ora
-							guarde la ley de los metros, ora no. Mas a mí me parece que quanta
-							diferencia ay entre músico y cantor, entre geómetra y pedrero, tanta
-							deve aver entre poeta y trobador. </term>
-						<content_definition xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:182 #PMC:168">Quanta diferencia aya del músico al
+					<head>DE LA DIFERENCIA QUE AY ENTRE <rs key="182">POETA</rs> Y <rs key="208"
+							>TROBADOR</rs></head>
+					<p>Según es común uso de hablar en nuestra lengua, <rs key="182 208">al trobador
+							llaman poeta y al poeta, trobador, ora guarde la ley de los metros, ora
+							no. Mas a mí me parece que quanta diferencia ay entre músico y cantor,
+							entre geómetra y pedrero, tanta deve aver entre poeta y trobador. </rs>
+						<rs type="definition" key="182 168">Quanta diferencia aya del músico al
 							cantor y del geómetra al pedrero, Boecio nos lo enseña: que el músico
 							contempla en la especulación de la música, y el cantor es oficial della.
 							Esto mesmo es entre el geómetra y pedrero, y poeta y trobador; porque el
 							poeta contempla en los géneros de los versos, y de quántos pies consta
 							cada verso, y el pie, de quántas sílabas; y aún no se contenta con esto,
-							sin examinar la quantidad dellas</content_definition>. <term
-							cRef="#PMC:73 #PMC:249 #PMC:250">Contempla, esso mesmo,
-							qué cosa sea consonante y assonante</term>, y <term cRef="#PMC:276">quándo
-							passa vna sílaba por dos, y dos sílabas por vna</term>, y otras muchas
-						cosas de las quales en su lugar adelante trataremos.<term cRef="#PMC:182 #PMC:208">Assí que quanta diferencia ay de señor a esclavo, de
-							capitán a hombre de armas sugeto a su capitanía, tanta a mi ver ay de
-							trobador a poeta; mas pues estos dos nombres, sin ninguna diferencia
-							entre los de nuestra nación, confundimos, mucha razón es que quien
-							quisiere gozar del nombre de poeta o trobador, aya de tener todas estas
-							cosas</term>. <term cRef="#PMC:168">¡O, quántos vemos en nuestra España
-							estar en reputación de trobadores, que no se les da más por echar vna
-							sílaba y dos demasiadas, que de menos, ni se curan qué sea buen
-							consonante, qué malo!</term> Y pues se ponen a hazer en metro, deven
-						mirar y saber <content_definition xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:182 #PMC:208 #PMC:168">que metro no quiere
-							dezir otra cosa sino mensura; de manera que lo que no lleva cierta
-							mensura y medida, no devemos dezir que va en metro, ni el que lo haze
-							deve gozar de nombre de poeta ni trobador</content_definition>. </p>
+							sin examinar la quantidad dellas</rs>. <rs key="73 249 250">Contempla,
+							esso mesmo, qué cosa sea consonante y assonante</rs>, y <rs key="276"
+							>quándo passa vna sílaba por dos, y dos sílabas por vna</rs>, y otras
+						muchas cosas de las quales en su lugar adelante trataremos.<rs key="182 208"
+							>Assí que quanta diferencia ay de señor a esclavo, de capitán a hombre
+							de armas sugeto a su capitanía, tanta a mi ver ay de trobador a poeta;
+							mas pues estos dos nombres, sin ninguna diferencia entre los de nuestra
+							nación, confundimos, mucha razón es que quien quisiere gozar del nombre
+							de poeta o trobador, aya de tener todas estas cosas</rs>. <rs key="168"
+							>¡O, quántos vemos en nuestra España estar en reputación de trobadores,
+							que no se les da más por echar vna sílaba y dos demasiadas, que de
+							menos, ni se curan qué sea buen consonante, qué malo!</rs> Y pues se
+						ponen a hazer en metro, deven mirar y saber <rs type="definition"
+							key="182 208 168">que metro no quiere dezir otra cosa sino mensura; de
+							manera que lo que no lleva cierta mensura y medida, no devemos dezir que
+							va en metro, ni el que lo haze deve gozar de nombre de poeta ni
+							trobador</rs>. </p>
 				</div>
 				<div>
 					<head>Capítulo IIII </head>
-					<head>DE LO PRINCIPAL QUE SE REQUIERE PARA APRENDER A <term cRef="#PMC:210 #PMC:168">TROBAR</term></head>
-					<p>En lo primero amonestamos a los que carecen de <term cRef="#PMC:228"
-							>ingenio</term> y son más aptos para otros estudios y exercicios, que no
-						gasten su tiempo en vano leyendo nuestros precetos, podiéndolo emplear en
-						otra cosa que les sea más natural; y tomen por sí aquel dicho de <ref
-							target="http://viaf.org/viaf/34451872">Quintiliano</ref>, en el primero de
-						sus Instituciones, <term cRef="#PMC:228 #PMC:227">que ninguna cosa
-							aprovechan las artes y precetos adonde fallece natura; que a quien
-							ingenio falta, no le aprovecha más esta arte que precetos de agricultura
-							a tierras estériles</term>. De aqueste género de hombres avrá muchos que
-						reprehenderán esta obra: vnos que no la entenderán; otros, que no sabrán
-						usar della. A los quales respondo con un dicho de <ref
-							target="http://viaf.org/viaf/66806872/">Santo Agustino</ref>, en el
-						primero de Dotrina christiana, diziendo que si yo con mi dedo mostrasse a
-						vno alguna estrella, y él tuviesse tan debilitados los ojos que ni viesse el
-						dedo ni la estrella, no por esso me devía culpar; y esso mesmo si viesse el
-						dedo y no la estrella, devía culpar el defeto de su vista, y no a mí. <term
-							cRef="#PMC:228 #PMC:182">Assí que aqueste nuestro poeta que
-							establecemos instituyr, en lo primero venga dotado de buen
-						ingenio</term>. Y porque creo que, para los medianamente enseñados está la
-						verdad más clara que la luz; si oviere algunos tan bárbaros que persistan en
-						su pertinacia, dexados como incurables, nuestra exortación se enderece a los
-						mancebos estudiosos, cuyas orejas las dulces musas tienen conciliadas. Es
-						menester, allende desto, que el tal <term cRef="#PMC:182">poeta</term> no
-						menosprecie la <content_definition
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:265">elocución,
-							que consiste en hablar puramente, elegante y alto quando fuere menester,
-							según la materia lo requiere</content_definition>; <content_aim
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:235">los quales
-							precetos porque son comunes a los oradores y poetas, no los esperen de
-							mí, que no es mi intención hablar salvo de sólo aquello que es proprio
-							del poeta</content_aim>. Mas para quanto a la <term cRef="#PMC:265"
-							>elocución</term> mucho aprovecha, según es dotrina de <ref
-							target="http://viaf.org/viaf/34451872">Quintiliano</ref>, <content_origin
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:210">criarse desde
-							la tierna niñez adonde hablen muy bien</content_origin>; porque, como
-						nos enseña <ref target="http://viaf.org/viaf/100227522/">Oracio</ref>,
-						qualquiera vasija de barro guarda para siempre aquel olor que recibió quando
-						nueva. Y después desto deve <content_origin
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:210">exercitarse
-							en leer no solamente poetas y estorias en nuestra lengua, mas también en
-							lengua latina</content_origin>. Y no solamente leerlos, como dize <ref
-							target="http://viaf.org/viaf/34451872">Quintiliano</ref>, mas
-							<content_origin xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:210">discutirlos en los estilos y sentencias y en las
-							licencias, que no leerá cosa el poeta en ninguna facultad de que no se
-							aproveche para la copia que le es muy necessaria, principalmente en obra
-							larga</content_origin>. </p>
+					<head>DE LO PRINCIPAL QUE SE REQUIERE PARA APRENDER A <rs key="210 168"
+							>TROBAR</rs></head>
+					<p>En lo primero amonestamos a los que carecen de <rs key="228">ingenio</rs> y
+						son más aptos para otros estudios y exercicios, que no gasten su tiempo en
+						vano leyendo nuestros precetos, podiéndolo emplear en otra cosa que les sea
+						más natural; y tomen por sí aquel dicho de <name corresp="#quintiliano"
+							>Quintiliano</name>, en el primero de sus Instituciones, <rs
+							key="228 227">que ninguna cosa aprovechan las artes y precetos adonde
+							fallece natura; que a quien ingenio falta, no le aprovecha más esta arte
+							que precetos de agricultura a tierras estériles</rs>. De aqueste género
+						de hombres avrá muchos que reprehenderán esta obra: vnos que no la
+						entenderán; otros, que no sabrán usar della. A los quales respondo con un
+						dicho de <name corresp="#agustin">Santo Agustino</name>, en el primero de
+						Dotrina christiana, diziendo que si yo con mi dedo mostrasse a vno alguna
+						estrella, y él tuviesse tan debilitados los ojos que ni viesse el dedo ni la
+						estrella, no por esso me devía culpar; y esso mesmo si viesse el dedo y no
+						la estrella, devía culpar el defeto de su vista, y no a mí. <rs
+							key="228 182">Assí que aqueste nuestro poeta que establecemos instituyr,
+							en lo primero venga dotado de buen ingenio</rs>. Y porque creo que, para
+						los medianamente enseñados está la verdad más clara que la luz; si oviere
+						algunos tan bárbaros que persistan en su pertinacia, dexados como
+						incurables, nuestra exortación se enderece a los mancebos estudiosos, cuyas
+						orejas las dulces musas tienen conciliadas. Es menester, allende desto, que
+						el tal <rs key="182">poeta</rs> no menosprecie la <rs type="definition"
+							key="265">elocución, que consiste en hablar puramente, elegante y alto
+							quando fuere menester, según la materia lo requiere</rs>; <rs type="aim"
+							key="235">los quales precetos porque son comunes a los oradores y
+							poetas, no los esperen de mí, que no es mi intención hablar salvo de
+							sólo aquello que es proprio del poeta</rs>. Mas para quanto a la <rs
+							key="265">elocución</rs> mucho aprovecha, según es dotrina de <name
+							corresp="#quintiliano">Quintiliano</name>, <rs type="origin" key="210"
+							>criarse desde la tierna niñez adonde hablen muy bien</rs>; porque, como
+						nos enseña <name corresp="#horacio">Oracio</name>, qualquiera vasija de
+						barro guarda para siempre aquel olor que recibió quando nueva. Y después
+						desto deve <rs type="origin" key="210">exercitarse en leer no solamente
+							poetas y estorias en nuestra lengua, mas también en lengua latina</rs>.
+						Y no solamente leerlos, como dize <name corresp="#quintiliano"
+							>Quintiliano</name>, mas <rs type="origin" key="210">discutirlos en los
+							estilos y sentencias y en las licencias, que no leerá cosa el poeta en
+							ninguna facultad de que no se aproveche para la copia que le es muy
+							necessaria, principalmente en obra larga</rs>. </p>
 				</div>
 				<div>
 					<head>Capítulo V</head>
-					<head>DE <term cRef="#PMC:168">LA MENSURA Y ESAMINACIÓN DE LOS PIES</term> Y DE
-							<content_typology xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:210">LAS MANERAS DE TROBAR</content_typology></head>
-					<p>Toda <content_definition xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:210 #PMC:168">la fuerça del trobar está en saber hazer
-							y conocer los pies porque dellos se hazen las coplas y por ellos se
-							miden</content_definition>. <content_definition
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:3">Y pues assí es,
-							sepamos qué cosa es pie. Pie no es otra cosa en el trobar sino vn
-							ayuntamiento de cierto número de sílabas; y llámasse pie porque por él
-							se mide todo lo que trobamos; y sobre los tales pies corre y roda el
-							sonido de la copla</content_definition>. Mas, para que mejor vengamos en
-						el verdadero conocimiento, <term cRef="#PMC:3">devemos considerar que los
-							latinos llaman verso a lo que nosotros llamamos pie</term>;
-							<content_definition xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:160">y nosotros podremos llamar verso adondequiera que ay
-							ayuntamiento de pies, que comúnmente llamamos copla, que quiere decir
-							«cópula o ayuntamiento»</content_definition>. <content_typology
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:160 #PMC:4"
-							>Y bien podemos dezir que en vna copla aya dos versos, assí como si es
-							de ocho pies y va de cuatro en cuatro son dos versos; o si es de nueve,
-							el vn verso es de cinco y el otro de cuatro; y si es de diez puede ser
-							el vn verso d’cinco y el otro de otros cinco, y assí por esta manera
-							podemos poner otros enxemplos infinitos</content_typology>.
-							<content_typology xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:160 #PMC:4">Ay en nuestro vulgar castellano dos
-							géneros de versos o coplas</content_typology>, <content_definition
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:157 #PMC:3"
-							>el vno quando el pie consta de ocho sílabas o su equivalencia, que se
-							llama arte real</content_definition>; <content_definition
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:156 #PMC:3"
-							>y el otro quando se compone de doze o su equivalencia, que se llama
-							arte mayor</content_definition>. <term cRef="#PMC:276 #PMC:3">Digo
-							su equivalencia porque bien puede ser que tenga más o menos en cantidad,
-							mas en valor es impossible para ser el pie perfeto</term>;
-							<content_origin xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:210 #PMC:168">y bien parece nosotros aver tomado del
-							latín el trobar pues en él se hallan estos dos géneros, antiguamente de
-							ocho sílabas</content_origin>, así como: Jam lucis orto sidere De doze,
-						assí como: Mecenas atavis edite regibus <content_definition
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:157">Assí que,
-							quando el pie no tuviere más de ocho sílabas, llamarle hemos de arte
-							real</content_definition>, como le dixo <ref
-							target="http://viaf.org/viaf/9862287">Juan de Mena</ref>: Después que el
-						pintor del mundo <content_definition
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:156">Y si fuere de
-							doze ya sabremos ques de arte mayor</content_definition>, assí como el
-						mesmo <ref target="http://viaf.org/viaf/9862287"> Juan de Mena</ref> en las
-						Trezientas: Al muy prepotente don Juan el segundo <term cRef="#PMC:255 #PMC:3 #PMC:276">Dixe que podían a las vezes llevar más
-							o menos sílabas los pies; entiéndese aquello en cantidad o contando cada
-							vna por sí, mas en el valor o pronunciación ni son más ni menos</term>.
-							<content_definition xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:277">Pueden ser más en cantidad quando vna dición acaba en
-							vocal, y la otra que se sigue tanbien en el mesmo pie comiença en vocal,
-							que aunque son dos sílabas, no valen sino por vna, ni tardamos más
-							tiempo en pronunciar ambas que vna</content_definition>; assí como dize
-							<ref target="http://viaf.org/viaf/9862287">Juan de Mena</ref>: Paró
-						nuestra vida ufana <term cRef="#PMC:277">Avemos tanbien de mirar que quando
-							entre la vna vocal y la otra estuviera la «h», que es aspiración,
-							entonces a las vezes acontece que passan por dos y a las vezes por vna.
-							Y juzgarlo hemos según el común uso de hablar o según viéremos quel pie
-							lo requiere. Y esto tanbién avrá lugar en las dos vocales sin
-							aspiración</term>. <term cRef="#PMC:283">Tanbién pueden ser más quando las
-							dos sílabas postreras del pie son ambas breves, que entonces no valen
-							ambas sino por vna</term>. <term cRef="#PMC:286">Más es en tanto grado
-							nuestro común acentuar en la penúltima sílaba, que muchas vezes quando
-							aquellas dos sílabas del cabo vienen breves, hazemos luenga la que está
-							antes de la postrera</term>, assí como en otro pie dize: De la biuda
-						Pen[e]lópe <term cRef="#PMC:283">Pueden tanbién al contrario ser menos de
-							ocho y de doze quando la última es luenga, que entonces vale por dos, y
-							tanto tardamos en pronunciar aquella sílaba como dos, de manera que
-							passarán siete por ocho</term>, como dixo <ref
-							target="http://viaf.org/viaf/87101501">frey Ýñigo</ref>: Aclara sol
-						divinal <term cRef="#PMC:289 #PMC:288 #PMC:283">Mas porque
-							en el arte mayor los pies son intercisos, que se pueden partir por
-							medio, no solamente puede passar vna sílaba por dos quando la postrera
-							es luenga, mas tanbién, si la primera o la postrera fuera luenga, assí
-							del vn medio pie como del otro, que cada vna valdrá por dos</term>.
-							<content_typology xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:3 #PMC:241">Ay otro género de trobar que resulta de
-							los sobredichos, que se llama pie quebrado, que es medio pie, assí de
-							arte real como de mayor; del arte real son cuatro sílabas o su
-							equivalencia y éste suélese trobar el pie quebrado mezclado con los
-							enteros, y a las vezes passan cinco sílabas por medio pie y entonces
-							dezimos que va la vna perdida</content_typology>, assí como dixo <ref
-							target="http://viaf.org/viaf/51692805">don Jorge</ref>: como devemos <ref
-							cRef="#PMC:290">En el arte mayor quando se parten los pies y van
-							quebrados, nunca suelen mezclarse con los enteros, mas antes todos son
-							quebrados, según parece por muchos villancicos que ay de aquesta arte
-							trobados</ref>. </p>
+					<head>DE <rs key="168">LA MENSURA Y ESAMINACIÓN DE LOS PIES</rs> Y DE <rs
+							type="typology" key="210">LAS MANERAS DE TROBAR</rs></head>
+					<p>Toda <rs type="definition" key="210 168">la fuerça del trobar está en saber
+							hazer y conocer los pies porque dellos se hazen las coplas y por ellos
+							se miden</rs>. <rs type="definition" key="3">Y pues assí es, sepamos qué
+							cosa es pie. Pie no es otra cosa en el trobar sino vn ayuntamiento de
+							cierto número de sílabas; y llámasse pie porque por él se mide todo lo
+							que trobamos; y sobre los tales pies corre y roda el sonido de la
+							copla</rs>. Mas, para que mejor vengamos en el verdadero conocimiento,
+							<rs key="3">devemos considerar que los latinos llaman verso a lo que
+							nosotros llamamos pie</rs>; <rs type="definition" key="160">y nosotros
+							podremos llamar verso adondequiera que ay ayuntamiento de pies, que
+							comúnmente llamamos copla, que quiere decir «cópula o
+						ayuntamiento»</rs>. <rs type="typology" key="160 4">Y bien podemos dezir que
+							en vna copla aya dos versos, assí como si es de ocho pies y va de cuatro
+							en cuatro son dos versos; o si es de nueve, el vn verso es de cinco y el
+							otro de cuatro; y si es de diez puede ser el vn verso d’cinco y el otro
+							de otros cinco, y assí por esta manera podemos poner otros enxemplos
+							infinitos</rs>. <rs type="typology" key="160 4">Ay en nuestro vulgar
+							castellano dos géneros de versos o coplas</rs>, <rs type="definition"
+							key="157 3">el vno quando el pie consta de ocho sílabas o su
+							equivalencia, que se llama arte real</rs>; <rs type="definition"
+							key="156 3">y el otro quando se compone de doze o su equivalencia, que
+							se llama arte mayor</rs>. <rs key="276 3">Digo su equivalencia porque
+							bien puede ser que tenga más o menos en cantidad, mas en valor es
+							impossible para ser el pie perfeto</rs>; <rs type="origin" key="210 168"
+							>y bien parece nosotros aver tomado del latín el trobar pues en él se
+							hallan estos dos géneros, antiguamente de ocho sílabas</rs>, así como:
+						Jam lucis orto sidere De doze, assí como: Mecenas atavis edite regibus <rs
+							type="definition" key="157">Assí que, quando el pie no tuviere más de
+							ocho sílabas, llamarle hemos de arte real</rs>, como le dixo <name
+							corresp="#mena">Juan de Mena</name>: Después que el pintor del mundo <rs
+							type="definition" key="156">Y si fuere de doze ya sabremos ques de arte
+							mayor</rs>, assí como el mesmo <name corresp="#mena"> Juan de
+							Mena</name> en las Trezientas: Al muy prepotente don Juan el segundo <rs
+							key="255 3 276">Dixe que podían a las vezes llevar más o menos sílabas
+							los pies; entiéndese aquello en cantidad o contando cada vna por sí, mas
+							en el valor o pronunciación ni son más ni menos</rs>. <rs
+							type="definition" key="277">Pueden ser más en cantidad quando vna dición
+							acaba en vocal, y la otra que se sigue tanbien en el mesmo pie comiença
+							en vocal, que aunque son dos sílabas, no valen sino por vna, ni tardamos
+							más tiempo en pronunciar ambas que vna</rs>; assí como dize <name
+							corresp="#mena">Juan de Mena</name>: Paró nuestra vida ufana <rs
+							key="277">Avemos tanbien de mirar que quando entre la vna vocal y la
+							otra estuviera la «h», que es aspiración, entonces a las vezes acontece
+							que passan por dos y a las vezes por vna. Y juzgarlo hemos según el
+							común uso de hablar o según viéremos quel pie lo requiere. Y esto
+							tanbién avrá lugar en las dos vocales sin aspiración</rs>. <rs key="283"
+							>Tanbién pueden ser más quando las dos sílabas postreras del pie son
+							ambas breves, que entonces no valen ambas sino por vna</rs>. <rs
+							key="286">Más es en tanto grado nuestro común acentuar en la penúltima
+							sílaba, que muchas vezes quando aquellas dos sílabas del cabo vienen
+							breves, hazemos luenga la que está antes de la postrera</rs>, assí como
+						en otro pie dize: De la biuda Pen[e]lópe <rs key="283">Pueden tanbién al
+							contrario ser menos de ocho y de doze quando la última es luenga, que
+							entonces vale por dos, y tanto tardamos en pronunciar aquella sílaba
+							como dos, de manera que passarán siete por ocho</rs>, como dixo <name
+							corresp="#iñigo">frey Ýñigo</name>: Aclara sol divinal <rs
+							key="289 288 283">Mas porque en el arte mayor los pies son intercisos,
+							que se pueden partir por medio, no solamente puede passar vna sílaba por
+							dos quando la postrera es luenga, mas tanbién, si la primera o la
+							postrera fuera luenga, assí del vn medio pie como del otro, que cada vna
+							valdrá por dos</rs>. <rs type="typology" key="3 241">Ay otro género de
+							trobar que resulta de los sobredichos, que se llama pie quebrado, que es
+							medio pie, assí de arte real como de mayor; del arte real son cuatro
+							sílabas o su equivalencia y éste suélese trobar el pie quebrado mezclado
+							con los enteros, y a las vezes passan cinco sílabas por medio pie y
+							entonces dezimos que va la vna perdida</rs>, assí como dixo <name
+							corresp="#manrique">don Jorge</name>: como devemos <rs key="290">En el
+							arte mayor quando se parten los pies y van quebrados, nunca suelen
+							mezclarse con los enteros, mas antes todos son quebrados, según parece
+							por muchos villancicos que ay de aquesta arte trobados</rs>. </p>
 				</div>
 
 				<div>
 					<head>Capítulo VI </head>
-					<head><term cRef="#PMC:73">DE LOS CONSONANTES Y ASSONANTES Y DE LA ESAMINACIÓN
-							DELLOS</term></head>
-					<p>Después de aver visto y conocido la mensura y esaminación de los pies,<term
-							cRef="#PMC:73"> resta conocer los consonantes y assonantes, los quales
-							siempre se aposentan y assinan en el cabo de cada pie, y son principales
+					<head><rs key="73">DE LOS CONSONANTES Y ASSONANTES Y DE LA ESAMINACIÓN
+							DELLOS</rs></head>
+					<p>Después de aver visto y conocido la mensura y esaminación de los pies,<rs
+							key="73"> resta conocer los consonantes y assonantes, los quales siempre
+							se aposentan y assinan en el cabo de cada pie, y son principales
 							miembros y partes del mesmo pie; y porque el proprio acento de nuestra
 							lengua comúnmente es en la penúltima sílaba, allí devemos buscar y
-							esaminar los consonantes y assonantes</term>.<content_definition
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:249"> Consonante
-							se llama todas aquellas letras o sílabas que se ponen desde donde está
-							el postrer acento agudo o alto hasta el fin del
-						pie</content_definition>. <content_typology
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:249">Assí como si
-							el vn pie acabasse en esta dición: «vida», y el otro acabasse en otra
-							dición que dixesse «despedida», entonces diremos que desde la «i» donde
-							está el acento largo, hasta el cabo, es consonante. Y por esso se llama
-							consonante, porque ha de consonar el vn pie con el otro con las mesmas
-							letras desde aquel acento agudo o alto que es aquella «i». Mas quando el
-							pie acaba en vna sílaba luenga que vale por dos, entonces contamos
-							aquella sola por última y penúltima y desde aquella vocal donde está el
-							postrer acento largo, desde allí ha de consonar vn pie con otro con las
-							mesmas letras; assí como si el vn pie acaba en «coraçón», y el otro en
-							«passión», desde aquel «ón», que vale por dos sílabas, dezimos que es el
-							consonante. Y si acabasse el pie en dos sílabas breves y estuviesse el
-							acento agudo en la antepenúltima, entonces diremos que el consonante es
-							desde aquella antepenúltima, porque las dos postreras, que son breves,
-							no valen sino por vna, de manera que todo se sale a vn cuento; assí como
-							si el pie acabasse en «quiéreme», y el otro en «hiéreme», entonces desde
-							la «e» primera adonde está el acento alto es consonante que ha de
-							consonar con las mesmas letras</content_typology>.<content_definition
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:250"> Ay tanbién
-							otros que se llaman assonantes, y cuéntanse por los mesmos acentos de
-							los consonantes, mas difiere el vn assonante del otro en alguna letra de
-							las consonantes, que no de las vocales</content_definition>.
-							<content_origin xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:250">Y llámasse assonante porque es a semejança del
-							consonante, aunque no con todas las mesmas letras</content_origin>; assí
-						como <ref target="http://viaf.org/viaf/9862287">Juan de Mena</ref> dixo en la
-						Coronación, que acabó un pie en «proverbios», y otro en «sobervios», adonde
-						passa vna «v» por vna «b», y esto suélese hazer en defeto de consonante,
-						aunque «b» por «v», y «v» por «b» muy usado está, porque tienen gran
-						hermandad entre sí, assí como si dezimos «biva» y «reciba», y otros muchos
-						enxemplos pudiéramos traer, mas dexémoslos por evitar prolixidad. <term
-							cRef="#PMC:73 #PMC:295">Y allende desto, avémosnos de guardar que
-							no pongamos vn consonante dos vezes en vna copla, y aun, si ser pudiere,
-							no lo devemos repetir hasta que passen veynte coplas, salvo si fuere
-							obra larga, que entonces podrémoslo tornar a repetir a tercera copla o
-							dende adelante aviendo necessidad. Y qualquiera copla se ha de hazer de
-							diversos consonantes, dando a cada pie compañero o compañeros, porque si
-							fuessen todos los pies d’vnos consonantes, parecería muy mal</term>.
-							<content_definition xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:245">Y avemos de notar que sílabas breves en el romance
-							llamamos todas las que tienen el acento baxo</content_definition>, y
-							<content_definition xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:244">luengas o agudas se dizen las que tienen alto el
-							acento</content_definition>, aunque en el latín no vayan por esta
-						cuenta. </p>
+							esaminar los consonantes y assonantes</rs>.<rs type="definition"
+							key="249"> Consonante se llama todas aquellas letras o sílabas que se
+							ponen desde donde está el postrer acento agudo o alto hasta el fin del
+							pie</rs>. <rs type="typology" key="249">Assí como si el vn pie acabasse
+							en esta dición: «vida», y el otro acabasse en otra dición que dixesse
+							«despedida», entonces diremos que desde la «i» donde está el acento
+							largo, hasta el cabo, es consonante. Y por esso se llama consonante,
+							porque ha de consonar el vn pie con el otro con las mesmas letras desde
+							aquel acento agudo o alto que es aquella «i». Mas quando el pie acaba en
+							vna sílaba luenga que vale por dos, entonces contamos aquella sola por
+							última y penúltima y desde aquella vocal donde está el postrer acento
+							largo, desde allí ha de consonar vn pie con otro con las mesmas letras;
+							assí como si el vn pie acaba en «coraçón», y el otro en «passión», desde
+							aquel «ón», que vale por dos sílabas, dezimos que es el consonante. Y si
+							acabasse el pie en dos sílabas breves y estuviesse el acento agudo en la
+							antepenúltima, entonces diremos que el consonante es desde aquella
+							antepenúltima, porque las dos postreras, que son breves, no valen sino
+							por vna, de manera que todo se sale a vn cuento; assí como si el pie
+							acabasse en «quiéreme», y el otro en «hiéreme», entonces desde la «e»
+							primera adonde está el acento alto es consonante que ha de consonar con
+							las mesmas letras</rs>.<rs type="definition" key="250"> Ay tanbién otros
+							que se llaman assonantes, y cuéntanse por los mesmos acentos de los
+							consonantes, mas difiere el vn assonante del otro en alguna letra de las
+							consonantes, que no de las vocales</rs>. <rs type="origin" key="250">Y
+							llámasse assonante porque es a semejança del consonante, aunque no con
+							todas las mesmas letras</rs>; assí como <name corresp="#mena">Juan de
+							Mena</name> dixo en la Coronación, que acabó un pie en «proverbios», y
+						otro en «sobervios», adonde passa vna «v» por vna «b», y esto suélese hazer
+						en defeto de consonante, aunque «b» por «v», y «v» por «b» muy usado está,
+						porque tienen gran hermandad entre sí, assí como si dezimos «biva» y
+						«reciba», y otros muchos enxemplos pudiéramos traer, mas dexémoslos por
+						evitar prolixidad. <rs key="73 295">Y allende desto, avémosnos de guardar
+							que no pongamos vn consonante dos vezes en vna copla, y aun, si ser
+							pudiere, no lo devemos repetir hasta que passen veynte coplas, salvo si
+							fuere obra larga, que entonces podrémoslo tornar a repetir a tercera
+							copla o dende adelante aviendo necessidad. Y qualquiera copla se ha de
+							hazer de diversos consonantes, dando a cada pie compañero o compañeros,
+							porque si fuessen todos los pies d’vnos consonantes, parecería muy
+							mal</rs>. <rs type="definition" key="245">Y avemos de notar que sílabas
+							breves en el romance llamamos todas las que tienen el acento baxo</rs>,
+						y <rs type="definition" key="244">luengas o agudas se dizen las que tienen
+							alto el acento</rs>, aunque en el latín no vayan por esta cuenta. </p>
 				</div>
 
 				<div>
 
 					<head>Capítulo VII</head>
 
-					<head><term cRef="#PMC:4 #PMC:3">DE LOS VERSOS Y COPLAS Y DE SU
-							DIVERSIDAD</term></head>
+					<head><rs key="4 3">DE LOS VERSOS Y COPLAS Y DE SU DIVERSIDAD</rs></head>
 
 					<p>Según ya deximos arriba, devemos mirar que de los pies se hazen los versos y
 						coplas; mas porque algunos querrán saber de quántos pies han de ser, digamos
-						algo dello brevemente. <content_typology
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:4 #PMC:3"
-							>Muchas vezes vemos que algunos hazen sólo vn pie y aquél ni es verso ni
-							copla, porque avían de ser pies y no sólo vn pie, ni ay allí consonante,
-							pues que no tiene compañero; y aquel tal suélese llamar
-							mote</content_typology>. <content_typology
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:4 #PMC:147"
-							>Y si tiene dos pies llamámosle tanbién mote o villancico, o letra de
-							alguna invención por la mayor parte</content_typology>.
-							<content_typology xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:4 #PMC:296">Si tiene tres pies enteros o el vno
-							quebrado tanbién será villancico o letra de invención; y entonces el vn
-							pie ha de quedar sin consonante, según más común uso; y algunos ay del
-							tiempo antiguo de dos pies y de tres que no van en consonante porque
-							entonces no guardavan tan estrechamente las osservaciones del
-							trobar</content_typology>. <content_typology
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:4">Y si es de
-							cuatro pies, puede ser canción, y ya se puede llamar
-							copla</content_typology>; <content_definition
-							xmlns="http://www.example.org/ns/Poeticas" cRef="#PMC:27 #PMC:4"
-							>y aun los romances suelen yr de cuatro en cuatro pies, aunque no van en
-							consonante sino el segundo y el cuarto pie; y aun los del tiempo viejo
-							no van por verdaderos consonantes</content_definition>.
-							<content_typology xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:4 #PMC:3 #PMC:157">Y todas estas cosas
+						algo dello brevemente. <rs type="typology" key="4 3">Muchas vezes vemos que
+							algunos hazen sólo vn pie y aquél ni es verso ni copla, porque avían de
+							ser pies y no sólo vn pie, ni ay allí consonante, pues que no tiene
+							compañero; y aquel tal suélese llamar mote</rs>. <rs type="typology"
+							key="4 147">Y si tiene dos pies llamámosle tanbién mote o villancico, o
+							letra de alguna invención por la mayor parte</rs>. <rs type="typology"
+							key="4 296">Si tiene tres pies enteros o el vno quebrado tanbién será
+							villancico o letra de invención; y entonces el vn pie ha de quedar sin
+							consonante, según más común uso; y algunos ay del tiempo antiguo de dos
+							pies y de tres que no van en consonante porque entonces no guardavan tan
+							estrechamente las osservaciones del trobar</rs>. <rs type="typology"
+							key="4">Y si es de cuatro pies, puede ser canción, y ya se puede llamar
+							copla</rs>; <rs type="definition" key="27 4">y aun los romances suelen
+							yr de cuatro en cuatro pies, aunque no van en consonante sino el segundo
+							y el cuarto pie; y aun los del tiempo viejo no van por verdaderos
+							consonantes</rs>. <rs type="typology" key="4 3 157">Y todas estas cosas
 							suelen ser de arte real, que el arte mayor es más propria para cosas
 							graves y arduas. Y de cinco pies tanbién ay canciones; y de seys, y
 							puédense llamar versos y coplas y hazer tantas diversidades cuantas
-							maneras huviere de trocarse los pies</content_typology>.
-							<content_typology xmlns="http://www.example.org/ns/Poeticas"
-							cRef="#PMC:3 #PMC:4">Mas desde seys pies arriba por la mayor
-							parte suelen tornar a hazer otro ayuntamiento de pies, de manera que
-							serán dos versos en vna copla, y comúnmente no sube ninguna copla de
-							doze pies arriba porque parecería desvariada cosa</content_typology>,
-							<term cRef="#PMC:27">salvo los romances, que no tienen número
-							cierto</term>. </p>
+							maneras huviere de trocarse los pies</rs>. <rs type="typology" key="3 4"
+							>Mas desde seys pies arriba por la mayor parte suelen tornar a hazer
+							otro ayuntamiento de pies, de manera que serán dos versos en vna copla,
+							y comúnmente no sube ninguna copla de doze pies arriba porque parecería
+							desvariada cosa</rs>, <rs key="27">salvo los romances, que no tienen
+							número cierto</rs>. </p>
 
 				</div>
 
 				<div>
 					<head>Capítulo VIII</head>
-					<head><term cRef="#PMC:297">DE LAS LICENCIAS Y COLORES POÉTICOS Y DE ALGUNAS
-							GALAS DEL TROBAR</term></head>
+					<head><rs key="297">DE LAS LICENCIAS Y COLORES POÉTICOS Y DE ALGUNAS GALAS DEL
+							TROBAR</rs></head>
 					<p>De muchas licencias y figuras pueden usar los poetas por razón del metro y
 						por la necessidad de los consonantes; mayormente en el latín ay figuras
 						infinitas; y algunas dellas han passado en el uso de nuestro castellano
 						trobar, de las quales no haremos mención más de quanto a nuestro propósito
-						satisfaze. <term cRef="#PMC:301">Tiene el poeta y trobador licencia para
-							acortar y sincopar qualquiera parte o dición</term>, assí como <ref
-							target="http://viaf.org/viaf/9862287">Juan de Mena</ref> en vna copla <term
-							cRef="#PMC:301">que dixo «El hi de María» por dezir «el hijo de María».
-							Y en otra parte dixo «que nol pertenece» por dezir «que no le
-							pertenece». Y en otra dixo «Agenores» por «Agenórides». Puede assí mesmo
-							corromper y estender el vocablo, assí como el mesmo Juan de Mena en otra
-							copla que dixo «Cadino», por Cadmo; y los lagos «metróes» por
-							«meótides»</term>. <term cRef="#PMC:284">Y puede también mudarle el
-							acento, assí como en otro lugar donde dize «platános» por «plátanos» y
-							en otro «penélope» por «Penolope»</term>. Tiene también licencia para
-						escrevir vn lugar por otro, como <ref target="http://viaf.org/viaf/9862287"
-							>Juan de Mena</ref> que puso vna Tebas por otra; y puede también poner
-						vna persona por otra; y vn nombre por otro; <term cRef="#PMC:311">y la parte,
-							por el todo; y el todo por la parte</term>. Otras muchas más figuras y
-						licencias pudiéramos contar, mas porque los modernos gozan de la brevedad,
+						satisfaze. <rs key="301">Tiene el poeta y trobador licencia para acortar y
+							sincopar qualquiera parte o dición</rs>, assí como <name corresp="#mena"
+							>Juan de Mena</name> en vna copla <rs key="301">que dixo «El hi de
+							María» por dezir «el hijo de María». Y en otra parte dixo «que nol
+							pertenece» por dezir «que no le pertenece». Y en otra dixo «Agenores»
+							por «Agenórides». Puede assí mesmo corromper y estender el vocablo, assí
+							como el mesmo Juan de Mena en otra copla que dixo «Cadino», por Cadmo; y
+							los lagos «metróes» por «meótides»</rs>. <rs key="284">Y puede también
+							mudarle el acento, assí como en otro lugar donde dize «platános» por
+							«plátanos» y en otro «penélope» por «Penolope»</rs>. Tiene también
+						licencia para escrevir vn lugar por otro, como <name corresp="#mena">Juan de
+							Mena</name> que puso vna Tebas por otra; y puede también poner vna
+						persona por otra; y vn nombre por otro; <rs key="311">y la parte, por el
+							todo; y el todo por la parte</rs>. Otras muchas más figuras y licencias
+						pudiéramos contar, mas porque los modernos gozan de la brevedad,
 						contentémonos con éstas, las quales no devemos usar muy a menudo pues que la
 						necessidad principalmente fue causa de su invención, aunque verdad sea que
 						muchas cosas al principio la necessidad ha introducido que después el uso
 						las ha aprovado por gala, assí como los trages, las casas y otras infinitas
 						cosas que serían muy largas de contar; ay también mucha diversidad de galas
 						en el trobar; especialmente de cuatro o cinco principales devemos hazer
-						fiesta. <term cRef="#PMC:167">Ay vna gala de trobar que se llama encadenado
-							que en el consonante que acaba el vn pie, en aquél comiença el otro;
-							assí como vna copla que dize: Soy contento ser cativo, cativo en vuestro
-							poder; poder dichoso ser bivo, bivo con mi mal esquivo esquivo no de
-							querer, etc. Ay otra gala de trobar que se llama retrocado, que es
-							cuando las razones se retruecan, como vna copla que dize: Contentaros y
-							serviros, serviros y contentaros, etc. Ay otra gala que se dize
-							redoblado, que es quando se redoblan las palabras, assí como vna canción
-							que dize: No quiero querer querer, sin sentir sentir sufrir, por poder
-							poder saber, etc. Ay otra gala que se llama multiplicado, que es quando
-							en un pie van muchos consonantes, assí como en vna copla que dice:
-							Dessear gozar amar, con amor, dolor, temor, etc. Ay otra gala de trobar
-							que llamamos reyterado, que es tornar cada pie sobre vna palabra, assí
-							como vna copla que dize: Mirad cuán mal lo miráys, mirad cuán penado
-							bivo, mirad quánto mal recibo, etc</term>. Estas y otras muchas galas ay
-						en nuestro castellano trobar, mas no las devemos usar muy a menudo, que el
-						guisado con mucha miel no es bueno sin algún sabor de vinagre. </p>
+						fiesta. <rs key="167">Ay vna gala de trobar que se llama encadenado que en
+							el consonante que acaba el vn pie, en aquél comiença el otro; assí como
+							vna copla que dize: Soy contento ser cativo, cativo en vuestro poder;
+							poder dichoso ser bivo, bivo con mi mal esquivo esquivo no de querer,
+							etc. Ay otra gala de trobar que se llama retrocado, que es cuando las
+							razones se retruecan, como vna copla que dize: Contentaros y serviros,
+							serviros y contentaros, etc. Ay otra gala que se dize redoblado, que es
+							quando se redoblan las palabras, assí como vna canción que dize: No
+							quiero querer querer, sin sentir sentir sufrir, por poder poder saber,
+							etc. Ay otra gala que se llama multiplicado, que es quando en un pie van
+							muchos consonantes, assí como en vna copla que dice: Dessear gozar amar,
+							con amor, dolor, temor, etc. Ay otra gala de trobar que llamamos
+							reyterado, que es tornar cada pie sobre vna palabra, assí como vna copla
+							que dize: Mirad cuán mal lo miráys, mirad cuán penado bivo, mirad quánto
+							mal recibo, etc</rs>. Estas y otras muchas galas ay en nuestro
+						castellano trobar, mas no las devemos usar muy a menudo, que el guisado con
+						mucha miel no es bueno sin algún sabor de vinagre. </p>
 
 				</div>
 
@@ -714,21 +584,22 @@
 
 					<head>DE CÓMO SE DEVE ESCREVIR Y LEER LAS COPLAS</head>
 
-					<p><term cRef="#PMC:3">Dévense escrevir las coplas de manera que cada pie vaya en
-							su renglón ora sea de arte real, ora de arte mayor, ora sea de pie
-							quebrado, ora de entero</term>. Y<term cRef="#PMC:4"> si en la copla
-							huviere dos versos, assí como si es de siete, y los cuatro pies son vn
-							verso, y los tres, otro; o si es de ocho y los cuatro son vn verso, y
-							los otros cuatro, otro; o si es de nueve y los cinco son vn verso y los
-							cuatro, otro, etc., siempre entre uso y uso se ponga coma: que son dos
-							puntos, vno sobre otro «:»</term>; y<term cRef="#PMC:160"> en fin de la
-							copia hase de poner col[ó]n, que es vn punto solo «.»</term> Y en los
-						nombres proprios que no son muy conocidos o en las palabras que pueden tener
-						dos acentos, devemos poner sobre la vocal adonde se haze el acento luengo,
-						vn ápice, que es un rasguito como el de la «i», assí como en «ámo» quando yo
-						amo, y «amó» quando otro amó. <term cRef="#PMC:3 #PMC:4 #PMC:160">Y hanse de leer de manera que entre pie y pie se pare
-							vn poquito, sin cobrar aliento; y entre verso y verso parar vn poquito
-							más; y entre copla y copla, vn poco más, para tomar aliento</term>. </p>
+					<p><rs key="3">Dévense escrevir las coplas de manera que cada pie vaya en su
+							renglón ora sea de arte real, ora de arte mayor, ora sea de pie
+							quebrado, ora de entero</rs>. Y<rs key="4"> si en la copla huviere dos
+							versos, assí como si es de siete, y los cuatro pies son vn verso, y los
+							tres, otro; o si es de ocho y los cuatro son vn verso, y los otros
+							cuatro, otro; o si es de nueve y los cinco son vn verso y los cuatro,
+							otro, etc., siempre entre uso y uso se ponga coma: que son dos puntos,
+							vno sobre otro «:»</rs>; y<rs key="160"> en fin de la copia hase de
+							poner col[ó]n, que es vn punto solo «.»</rs> Y en los nombres proprios
+						que no son muy conocidos o en las palabras que pueden tener dos acentos,
+						devemos poner sobre la vocal adonde se haze el acento luengo, vn ápice, que
+						es un rasguito como el de la «i», assí como en «ámo» quando yo amo, y «amó»
+						quando otro amó. <rs key="3 4 160">Y hanse de leer de manera que entre pie y
+							pie se pare vn poquito, sin cobrar aliento; y entre verso y verso parar
+							vn poquito más; y entre copla y copla, vn poco más, para tomar
+							aliento</rs>. </p>
 
 				</div>
 

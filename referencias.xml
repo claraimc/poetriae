@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Índice de referencias</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Clara</authority>
+                <availability>
+                    <licence>
+                        <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                            Attribution-NonCommercial-ShareAlike 4.0 International</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person xml:id="juan">
+                    <persName>Príncipe Don Juan</persName>
+                    <bibl>
+                        <ref>http://es.dbpedia.org/page/Juan_de_Arag%C3%B3n_(pr%C3%ADncipe_de_Asturias)</ref>
+                    </bibl>
+                </person>
+                <person xml:id="ciceron">
+                    <persName>Cicerón</persName>
+                    <bibl>
+                        <ref>http://viaf.org/viaf/310519475/</ref>
+                    </bibl>
+                </person>
+                <person xml:id="caton">
+                    <persName>Catón</persName>
+                    <bibl>
+                        <ref>http://dbpedia.org/page/Cato_the_Elder</ref>
+                    </bibl>
+                </person><person xml:id="tulio">
+                    <persName>Tulio</persName>
+                    <bibl>
+                        <ref>http://viaf.org/viaf/99852973/</ref>
+                    </bibl>
+                </person><person xml:id="lebrix">
+                    <persName>Antonio de
+                        Lebrix</persName>
+                    <bibl>
+                        <ref>http://es.dbpedia.org/page/Antonio_de_Nebrija</ref>
+                    </bibl>
+                </person><person xml:id="nebrija">
+                    <persName>Antonio de Nebrija</persName>
+                    <bibl>
+                        <ref>http://es.dbpedia.org/page/Antonio_de_Nebrija</ref>
+                    </bibl>
+                </person><person xml:id="justino">
+                    <persName>Justino</persName>
+                    <bibl>
+                        <ref>http://viaf.org/viaf/24616821/</ref>
+                    </bibl>
+                </person><person xml:id="agustin">
+                    <persName>Agustín de Hipona</persName>
+                    <bibl>
+                        <ref>http://viaf.org/viaf/66806872/</ref>
+                    </bibl>
+                </person><person xml:id="virgilio">
+                    <persName>Virgilio</persName>
+                    <bibl>
+                        <ref>http://viaf.org/viaf/50144648317674718529/</ref>
+                    </bibl>
+                </person><person xml:id="dante">
+                    <persName>Dante</persName>
+                    <bibl>
+                        <ref>http://viaf.org/viaf/97105654/</ref>
+                    </bibl>
+                </person><person xml:id="petrarca">
+                    <persName></persName>
+                    <bibl>
+                        <ref>http://viaf.org/viaf/39382430</ref>
+                    </bibl>
+                </person><person xml:id="quintiliano">
+                    <persName>Quintiliano</persName>
+                    <bibl>
+                        <ref>http://viaf.org/viaf/34451872</ref>
+                    </bibl>
+                </person><person xml:id="boecio">
+                    <persName>Boecio</persName>
+                    <bibl>
+                        <ref>http://viaf.org/viaf/100218964</ref>
+                    </bibl>
+                </person><person xml:id="horacio">
+                    <persName>Horacio</persName>
+                    <bibl>
+                        <ref>http://viaf.org/viaf/100227522/</ref>
+                    </bibl>
+                </person><person xml:id="mena">
+                    <persName>Juan de Mena</persName>
+                    <bibl>
+                        <ref>http://viaf.org/viaf/9862287</ref>
+                    </bibl>
+                </person><person xml:id="iñigo">
+                    <persName>Frey Íñigo</persName>
+                    <bibl>
+                        <ref>http://viaf.org/viaf/87101501</ref>
+                    </bibl>
+                </person><person xml:id="manrique">
+                    <persName>Jorge Manrique</persName>
+                    <bibl>
+                        <ref>http://viaf.org/viaf/51692805</ref>
+                    </bibl>
+                </person>
+            </listPerson>
+        </body>
+    </text>
+</TEI>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/tei_lite-poeticas.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="schemas/poetica.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schemas/tei_lite-poeticas.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/poetica.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schemas/terminos.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -142,7 +143,7 @@
 						verdad o a su Madre preciosa o a algunos santos que sean intercessores y
 						medianeros para alcançarnos la gracia. Hallamos esso mesmo acerca de los
 						antiguos, que sus oráculos y vaticinaciones se davan en versos; y de aquí
-						vino <rs key="263">los poetas llamarse vates, assí como hombres que cantan
+						vino <rs key="182">los poetas llamarse vates, assí como hombres que cantan
 							las cosas divinas</rs>. <rs type="origin" key="268">Y no solamente la
 							poesía tuvo esta preminencia en la vana gentilidad, mas aun muchos
 							libros del Testamento viejo, según da testimonio San Gerónimo, fueron

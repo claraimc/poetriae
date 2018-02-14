@@ -2,8 +2,8 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
     <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
-    <let name="terminos" value="doc('../vocabulario.xml')//tei:term/@n"/>
-    <let name="personas" value="doc('../referencias.xml')//tei:person/concat('#', @xml:id)"/>
+    <let name="terminos" value="doc('../auxiliar/vocabulario.xml')//tei:term/@n"/>
+    <let name="personas" value="doc('../auxiliar/referencias.xml')//tei:person/concat('#', @xml:id)"/>
     <pattern>
         <rule context="tei:rs">
             <assert test="tokenize(@key, '\s+') = $terminos">Este término no está registrado</assert>

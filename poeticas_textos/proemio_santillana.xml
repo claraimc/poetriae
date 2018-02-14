@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../schemas/tei_lite-poeticas.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/poetica.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schemas/terminos.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Proemio y carta</title>
+            <title>Proemio e carta al condestable don Pedro de Portugal</title>
+            <author>Iñigo Lopez de Mendoza</author>
+            <author>Marqués de Santillana</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>edición digital</edition>
+            <respStmt>
+               <resp>edición TEI</resp>
+               <name>Martínez Cantón, Clara Isabel</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Proyecto Artes Poeticas</publisher>
+            <availability>
+               <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl><!-- monografia en papel sobre la que nos basamos -->
+                  <title>Las Poeticas Castellanas de la Edad Media</title>
+                  <editor>Francisco López Estrada</editor>
+                  <pubPlace>Madrid</pubPlace>
+                  <publisher>Taurus</publisher>
+                  <date>1984</date>
+               </bibl>
+               
+               <bibl n="2284">
+                  <idno>texid BETA</idno>
+                  <title>BETA</title>
+               </bibl>
+               <bibl type="url"
+                  >http://www.cervantesvirtual.com/obra-visor/proemio-y-carta--0/html/001fd8e2-82b2-11df-acc7-002185ce6064_2.html
+                  <title>Proemio y carta</title>
+                  <editor>Biblioteca Virtual Miguel de Cervantes</editor>
+                  <edition>Virtual</edition>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <origDate when="1450">Aproximada 1450</origDate>
+         </creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-02-14"/>
+      </revisionDesc>
+      
+   </teiHeader>
+  <text>
+      <body>
+         
+<p>Proemio y carta</p>
+         
+         
+         <p>Iñigo López de Mendoza, marqués de Santillana
+         
+         
+</p>
+<note>Nota preliminar: presentamos una edición modernizada del Proemio y carta, 
+         de Íñigo López de Mendoza, marqués de Santillana, manuscrito 2655 de la 
+         Biblioteca Universitaria de Salamanca, basándonos en la edición de Ángel Gómez 
+         Moreno y Maxim P. A. M. Kerkhof (Santillana, Íñigo López de Mendoza, Marqués 
+         de, Obras completas, Madrid, Fundación José Antonio de Castro, 2002), cuya 
+         consulta recomendamos. Con el objetivo de facilitar la lectura del texto al público no 
+         especializado se opta por ofrecer una edición modernizada y eliminar las marcas de 
+         editor, asumiendo, cuando lo creemos oportuno, las correcciones, reconstrucciones y 
+         enmiendas propuestas por Gómez Moreno y Kerkhof. Anotamos la lectura del 
+         original cuando la modernización ortográfica incide en cuestiones métricas o 
+         rítmicas.</note>
+         <p>Comienza el proemio y carta que el marqués de 
+            Santillana envió al condestable de Portugal con 
+            las obras suyas </p>
+         <p>Al ilustre señor don Pedro, muy magnífico condestable de Portugal, el marqués 
+            de Santillana, conde del Real etc., salud, paz, y debida recomendación.</p>
+         <p>En estos días pasados Alvar Gonzales de Alcántara, familiar y servidor de la 
+            casa del señor infante don Pedro, muy ínclito duque de Coímbra, vuestro padre, de 
+            parte vuestra, señor, me rogó que los decires y canciones mías enviase a la vuestra 
+            magnificencia. En verdad, señor, en otros hechos de mayor importancia, aunque a 
+            mí más trabajosos, quisiera yo complacer a la vuestra nobleza, porque estas obras, o 
+            a lo menos las más de ellas, no son de tales materias, ni así bien formadas y 
+            artizadas, que de memorable registro dignas parezcan. Porque, señor, así como el 
+            Apóstol dice cum essem parvulus, cogitabam ut parvulus, loquebar ut parvulus, ca 
+            estas tales cosas alegres y jocosas andan y concurren con el tiempo de la nueva edad 
+            de juventud, es a saber, con el vestir, con el justar, con el danzar y con otros tales 
+            cortesanos ejercicios. Y así, señor, muchas cosas placen ahora a vos que ya no 
+            placen o no deben placer a mí. Pero, muy virtuoso señor, protestando que la 
+            voluntad mía sea y fuese no otra de la que digo, porque la vuestra sin impedimento 
+            haya lugar y vuestro mandado se haga de unas y otras partes, y por los libros y 
+            cancioneros ajenos, hice buscar y escribir por orden, según que las yo hice, las que 
+            en este pequeño volumen vos envío.</p>
+         <p>Mas como quiera que de tanta insuficiencia estas obretas mías que vos, señor, 
+            demandáis, sean, o por ventura más de cuanto las yo estimo y reputo, os quiero 
+            certificar me place mucho que todas cosas que entren o anden so esta regla de poetal 
+            canto os plazcan; de lo cual me hacen cierto así vuestras graciosas demandas, como 
+            algunas gentiles cosas de tales que yo he visto compuestas de la vuestra prudencia. 
+            Como es cierto este sea un celo celeste, una afección divina, un insaciable cebo del 
+            ánimo, el cual, así como la materia busca la forma, y lo imperfecto la perfección, 
+            nunca esta ciencia de poesía y gaya ciencia buscaron ni se hallaron sino en los 
+            ánimos gentiles, claros ingenios y elevados espíritus.</p>
+         <p>¿Y qué cosa es la poesía, que en el nuestro vulgar 'gaya ciencia' llamamos, sino 
+            un fingimiento de cosas útiles, cubiertas o veladas con muy hermosa cobertura, 
+            compuestas, distinguidas y escandidas por cierto cuento, peso y medida? Y 
+            ciertamente, muy virtuoso señor, yerran aquellos que pensar quieren o decir que 
+            solamente las tales cosas consistan y tiendan a cosas vanas y lascivas; que bien 
+            como los fructíferos huertos abundan y dan convenientes frutos para todos los 
+            tiempos del año, así los hombres bien nacidos y doctos, a quien estas ciencias de 
+            arriba son infusas, usan de aquellas y del tal ejercicio según las edades. Y si por 
+            ventura las ciencias son deseables, así como Tulio quiere, ¿cuál de todas es más 
+            prestante, más noble y más digna del hombre, o cuál más extensa a todas especies de 
+            humanidad? Ca las oscuridades y cerramientos de ellas, ¿quién las abre, quién las 
+            esclarece, quién las demuestra y hace patentes sino la elocuencia dulce y hermosa 
+            habla, sea metro, sea prosa?</p>
+         <p>Cuanta más sea la excelencia y prerrogativa de las rimas y metros que de la 
+            suelta prosa, sino solamente a aquellos que de las porfías injustas se cuidan adquirir 
+            soberbios honores, manifiesta cosa es. Y así, haciendo la vía de los estoicos, los 
+            cuales con gran diligencia inquirieron el origen y causas de las cosas, me esfuerzo a 
+            decir el metro ser antes en tiempo, y de mayor perfección y más autoridad que la 
+            suelta prosa.</p>
+         <p>Isidoro Cartaginés, santo arzobispo hispalense, así lo aprueba y testifica, y 
+            quiere que el primero que hizo rimas o canto en metro haya sido Moisés, ca en 
+            metro cantó y profetizó la venida del Mesías; y, después de él, Josué, en loor del 
+            vencimiento de Gabaón. David cantó en metro la victoria de los filisteos y la 
+            restitución del arca del Testamento y todos los cinco libros del Salterio. Y aun por 
+            tanto los hebraicos osan afirmar que nosotros no así bien como ellos podemos sentir 
+            el gusto de la su dulceza. Y Salomón metrificados hizo los sus proverbios, y ciertas 
+            cosas de Job son escritas en rima, en especial las palabras de conforte que sus 
+            amigos le respondían a sus vejaciones.</p>
+         <p>De los griegos quieren sean los primeros Acatesio Milesio y, aprés de él, 
+            Ferécides Siro y Homero, no obstante que Dante 'soberano poeta' lo llama. De los 
+            latinos Ennio fue el primero, ya sea que Virgilio quieran de la lengua latina en metro 
+            haya tenido y tenga la monarquía, y aun así place a Dante, allí donde dice, en 
+            nombre de Sordello Mantuano:
+            <l>O gloria del latin solo per chui</l>
+            <l>mostro cho que potea la lingua nostra,</l>
+            <l>o precio eterno del llocho ove yo fui.</l></p>
+         <p>Y así concluyo, ca esta ciencia poetal es acepta principalmente a Dios, y 
+            después a todo linaje y especie de gentes. Afírmalo Casiodoro en el libro De varias 
+            causas, diciendo: Todo resplandor de elocuencia, y todo modo o manera de poesía o 
+            poetal locución y habla, toda variedad de honesto hablar hubo y hubieron 
+            comenzamiento de las Divinas Escrituras. Esta en los deíficos templos se canta, y en 
+            las cortes y palacios imperiales y reales graciosa y alegremente es recibida. Las 
+            plazas, las lonjas, las fiestas, los convites opulentos sin ella así como sordos y en 
+            silencio se hallan.</p>
+         <p>¿Y qué son o cuáles aquellas cosas adonde, oso decir, esa arte así como 
+            necesaria no intervenga y no sirva? En metro los epitalamios, que son cantares que 
+            en loor de los novios en las bodas se cantan, son compuestos; y, de unos en otros 
+            grados, aun a los pastores en cierta manera sirven, y son aquellos dictados a que los 
+            poetas 'bucólicos' llamaron. En otros tiempos, a las cenizas y defunciones de los 
+            muertos metros elegíacos se cantaban, y aún ahora en algunas partes dura, los cuales 
+            son llamados 'endechas'; en esta forma Jeremías cantó la destrucción de Jerusalén; 
+            Gayo César, Octaviano Augusto, Tiberio y Tito, emperadores, maravillosamente 
+            metrificaron y les plugo toda manera de metro.</p>
+         <p>Mas dejemos ya las historias antiguas por allegarnos más acerca de nuestros 
+            tiempos. El rey Roberto de Nápoles, claro y virtuoso príncipe, tanto esta ciencia le 
+            plugo que como en esta misma sazón micer Francisco Petrarca, poeta laureado, 
+            floreciese, es cierto gran tiempo lo tuvo consigo en el Castil Novo de Nápoles, con 
+            quien él muy a menudo confería y platicaba de estas artes, en tal manera que mucho 
+            fue habido por acepto a él y gran privado suyo; y allí se dice haber él hecho muchas 
+            de sus obras así latinas como vulgares, y entre las otras el libro De rerum 
+            memorandarum y las sus églogas y muchos sonetos, en especial aquel que hizo a la 
+            muerte de este mismo rey, que comienza Rota e l'alta columpna e el verde 
+            lauro, etc.</p>
+         <p>Juan Bocacio, poeta excelente y orador insigne, afirma el rey Juan de Chipre 
+            haberse dado más a los estudios de esta graciosa ciencia que a ningunas otras; y así 
+            parece que lo muestra en la entrada proemial de su libro de la Genealogía o Linaje 
+            de los dioses gentiles, hablando con el Señor de Parma, mensajero o embajador 
+            suyo.</p>
+         <p>Cómo pues o por cuál manera, señor muy virtuoso, estas ciencias hayan 
+            primeramente venido en mano de los romancistas o vulgares, creo sería difícil 
+            inquisición y una trabajosa pesquisa. Pero dejadas ahora las regiones, tierras y 
+            comarcas más longincuas y más separadas de nos, no es de dudar que, 
+            universalmente en todas, de siempre estas ciencias se hayan acostumbrado y 
+            acostumbran, y aun en muchas de ellas en estos tres grados, es a saber: sublime, 
+            mediocre e ínfimo. Sublime se podría decir por aquellos que las sus obras 
+            escribieron en lengua griega y latina, digo metrificando. Mediocre usaron aquellos 
+            que en vulgar escribieron, así como Guido Januncello, boloñés, y Arnaldo Daniel, 
+            provenzal. Y como quier que de estos yo no he visto obra alguna, pero quieren 
+            algunos haber ellos sido los primeros que escribieron tercia rima y aun sonetos en 
+            romance, y, así como dice el Filósofo, de los primeros primera es la especulación. 
+            Ínfimos son aquellos que sin ningún orden, regla ni cuento hacen estos romances y 
+            cantares de que las gentes de baja y servil condición se alegran.</p>
+         <p>Después de Guido y Arnaldo Daniel, Dante escribió en tercia rima 
+            elegantemente las sus tres comedias Infierno, Purgatorio y Paraíso; micer Francisco 
+            Petrarca, sus Triunfos; Checo d'Ascoli, el libro De proprietatibus rerum; y Juan 
+            Bocacio el libro que Ninfal se intitula, aunque ayuntó a él prosas de gran elocuencia 
+            a la manera del Boecio consolatorio. Estos y muchos otros escribieron en otra forma 
+            de metros en lengua itálica que 'sonetos' y 'canciones morales' se llaman.</p>
+         <p>Extendiéronse, creo, de aquellas tierras y comarcas de los lemosines estas artes 
+            a los gálicos y a esta postrimera y occidental parte que es la nuestra España, donde 
+            asaz prudente y hermosamente se han usado.</p>
+         <p>Los gálicos y franceses escribieron en diversas maneras rimas y versos, que en 
+            el cuento de los pies o bordones discrepan, pero el peso, cuento de las sílabas de la 
+            tercia rima y de los sonetos y de las canciones morales iguales son de las baladas, 
+            aunque en algunas, así de las unas como de las otras, hay algunos pies truncados que 
+            nosotros llamamos 'medios pies', y los lemosines, franceses y aun catalanes, 
+            'bioques'.</p>
+         <p>De entre estos hubo hombres muy doctos y señalados en estas artes; ca maestre 
+            Juan de Loris hizo el Roman de la rosa, donde, como ellos dicen «el arte de amor es 
+            toda inclusa»; y acabolo maestre Juan Copinete, natural de la villa de Meun. 
+            Michaute escribió así mismo un gran libro de baladas, canciones, rondeles, lays y 
+            virelays, y asonó muchos de ellos. Micer Otho de Grandson, caballero estrenuo y 
+            muy virtuoso, se hubo alta y dulcemente en esta arte. Maestre Alen Charretiel, muy 
+            claro poeta moderno y secretario de este rey don Luis de Francia, en gran elegancia 
+            compuso y cantó en metro y escribió el Debate de las cuatro damas, La Bella Dama 
+            san mersi, el Revelle matin, La gran pastora, el Breviario de nobles y El hospital de 
+            amores, por cierto cosas asaz hermosas y placientes de oír.</p>
+         <p>Los itálicos prefiero yo, so enmienda de quien más sabrá, a los franceses, 
+            solamente ca las sus obras se muestran de más altos ingenios, y adórnanlas y 
+            compónenlas de hermosas y peregrinas historias; y a los franceses de los itálicos en 
+            el guardar del arte, de lo cual los itálicos, sino solamente en el peso y consonar, no 
+            se hacen mención alguna. Ponen sones así mismo a las sus obras y cántanlas por 
+            dulces y diversas maneras, y tanto han familiar, acepta y por manos la música que 
+            parece que entre ellos hayan nacido aquellos grandes filósofos, Orfeo, Pitágoras o 
+            Empédocles, los cuales, así como algunos describen, no solamente las iras de los 
+            hombres, más aun a las furias infernales con las sonorosas melodías y dulces 
+            modulaciones de los sus cantos aplacaban. ¿Y quién duda que así como las verdes 
+            hojas en el tiempo de la primavera guarnecen y acompañan los desnudos árboles, las 
+            dulces voces y hermosos sones no apuesten y acompañen toda rima, todo metro, 
+            todo verso, sea de cualquier arte, peso y medida?</p>
+         <p>Los catalanes, valencianos y aun algunos del reino de Aragón fueron y son 
+            grandes oficiales de esta arte. Escribieron primeramente en 'novas rimadas', que son 
+            pies o bordones largos de sílabas, y algunos consonaban y otros no. Después de esto 
+            usaron el decir en coplas de diez sílabas a la manera de los lemosines. Hubo entre 
+            ellos de señalados hombres así en las invenciones como en el metrificar. Guillén de 
+            Bervedá, generoso y noble caballero, y Pao de Bembibre adquirieron entre estos 
+            gran fama. Mosén Pero March el Viejo, valiente y honorable caballero, hizo asaz 
+            gentiles cosas y entre las otras escribió proverbios de gran moralidad. En estos 
+            nuestros tiempos floreció mosén Jorde de Sant Jorde, caballero prudente, el cual 
+            ciertamente compuso asaz hermosas cosas, las cuales él mismo asonaba, ca fue 
+            músico excelente; hizo entre otras una canción de opósitos que comienza Tos jons 
+            aprench e desaprench ensems. Hizo la Pasión de amor, en la cual compiló muchas 
+            buenas canciones antiguas, así de estos que ya dije como de otros. Mosén Febrer 
+            hizo obras nobles, y algunos afirman haya traído el Dante de lengua florentina en 
+            catalán, no menguando punto en la orden del metrificar y consonar. Mosén Ausias 
+            March, el cual aún vive, es gran trovador y hombre de asaz elevado espíritu.</p>
+         <p>Entre nosotros usose primeramente el metro en asaz formas, así como el Libro 
+            de Alexandre, Los votos del pavón y aun el Libro del Arcipreste de Hita, y aun de 
+            esta guisa escribió Pero López de Ayala el Viejo un libro que hizo de las maneras 
+            del Palacio y llamaron las Rimas.</p>
+         <p>Y después hallaron esta arte que 'mayor' se llama y el arte común, creo, en los 
+            reinos de Galicia y de Portugal, donde no es de dudar que el ejercicio de estas 
+            ciencias más que en ningunas otras regiones y provincias de la España se 
+            acostumbró en tanto grado que no ha mucho tiempo cualesquier decidores y 
+            trovadores de estas partes, ahora fuesen castellanos, andaluces o de la Extremadura, 
+            todas sus obras componían en lengua gallega o portuguesa; y aun de estos es cierto 
+            recibimos los nombres del arte, así como 'maestría mayor' y 'menor', 'encadenados', 
+            'leixaprén' y 'manzobre'.</p>
+         <p>Acuérdome, señor muy magnífico, siendo yo en edad no provecta, mas asaz 
+            pequeño mozo en poder de mi abuela doña Mencía de Cisneros, entre otros libros 
+            haber visto un gran volumen de cantigas, serranas y decires portugueses y gallegos, 
+            de los cuales toda la mayor parte era del rey don Dionís de Portugal, creo, señor, sea 
+            vuestro bisabuelo, cuyas obras aquellos las leían, loaban de invenciones sutiles y de 
+            graciosas y dulces palabras. Había otras de Joan Suares de Pavía, el cual se dice 
+            haber muerto en Galicia por amores de una infanta de Portugal; y de otro Fernand 
+            Gonzales de Senabria. Después de ellos vinieron Vasco Peres de Camões, y Fernand 
+            Casquicio y aquel grande enamorado Macías, del cual no se hallan sino cuatro 
+            canciones, pero ciertamente amorosas y de muy hermosas sentencias, conviene a 
+            saber Cativo de miña tristura, Amor cruel e brioso, Señora, en quien fiança y Provei 
+            de buscar mesura.</p>
+         <p>En este reino de Castilla dijo bien el rey don Alfonso el Sabio, y yo vi quien vio 
+            decires suyos, y aun se dice que metrificaba altamente en lengua latina. Vinieron 
+            después de estos don Juan de la Cerda, y Pero González de Mendoza, mi abuelo, 
+            hizo buenas canciones y entre otras Pero te sirvo sin arte y otra a las monjas de la 
+            Zaidía, cuando el rey don Pedro tenía el sitio contra Valencia; comienza A las 
+            riberas de un río. Usó una manera de decir cantares así como escénicos plautinos y 
+            terencianos, tan bien en estrambotes como en serranas. Concurrió en estos tiempos 
+            un judío que se llamó Rabí Santo; escribió muy buenas cosas y entre las 
+            otras Proverbios morales, en verdad de asaz recomendables sentencias. Púselo en 
+            cuento de tan nobles gentes por gran trovador, que así como él dice en uno de sus 
+            proverbios:
+            <l>No vale el azor menos</l>
+            <l>por nacer en vil nido1,</l>
+            <l>ni los ejemplos buenos</l>
+            <l>por los decir judío.</l></p>
+         <p>Alfonso González de Castro, natural de esta villa de Guadalajara, dijo asaz bien e 
+            hizo estas canciones Con tan alto poderío y Veis que descortesía.</p>
+         <p>Después de estos, en tiempo del rey don Juan, fue el arcediano de Toro; este 
+            hizo Crueldad y trocamiento, y otra canción que dice De quien cuido y cuidé. Y 
+            Garci Fernández de Gerena.</p>
+         <p>Desde el tiempo del rey don Enrique, de gloriosa memoria, padre del Rey 
+            Nuestro Señor, y hasta estos nuestros tiempos se comenzó a elevar más esta ciencia 
+            y con mayor elegancia. Y ha habido hombres muy doctos en esta arte, 
+            principalmente Alfonso Álvarez de Illescas, gran decidor, del cual se podría decir 
+            aquello que en loor de Ovidio un gran historiador describe, conviene a saber, que 
+            todos sus motes y palabras eran metro. Hizo tantas canciones y decires que sería 
+            bien largo y difuso nuestro proceso, si por extenso aun solamente los principios de 
+            ellas a recontar se hubiesen. Y así por esto, como por ser tanto conocidas y 
+            esparcidas a todas partes sus obras, pasaremos a micer Francisco Imperial, al cual yo 
+            no llamaría decidor o trovador, mas poeta, como sea cierto que si alguno en estas 
+            partes del ocaso mereció premio de aquella triunfal y láurea guirnalda, loando a 
+            todos los otros, este fue. Hizo al nacimiento del Rey Nuestro Señor aquel decir 
+            famoso En dos setecientos y muy muchas otras cosas graciosas y loables.</p>
+         <p>Fernán Sánchez Calavera, comendador de la orden de Calatrava, compuso asaz 
+            buenos decires. Don Pero Vélez de Guevara, mi tío, gracioso y noble caballero, así 
+            mismo escribió gentiles decires y canciones.</p>
+         <p>Fernán Pérez de Guzmán, mi tío, caballero docto en toda buena doctrina, ha 
+            compuesto muchas cosas metrificadas, y entre las otras aquel epitafio de la sepultura 
+            de mi señor el almirante don Diego Hurtado, que comienza Hombre que vienes aquí 
+            de presente. Hizo muchos otros decires y cantigas de amores, y aun ahora, bien poco 
+            tiempo ha, escribió proverbios de grandes sentencias, y otra obra asaz útil y bien 
+            compuesta de Las cuatro virtudes cardinales.</p>
+         <p>Al muy magnífico duque don Fadrique, mi señor y mi hermano, plugo mucho 
+            esta ciencia, e hizo asaz gentiles canciones y decires, y tenía en su casa grandes 
+            trovadores, especialmente a Fernán Rodríguez Portocarrero, y Juan de Gayoso y 
+            Alfonso de Moraña. Ferrán Manuel de Lando, honorable caballero, escribió muchas 
+            buenas cosas de poesía, imitó más que ninguno otro a micer Francisco Imperial, hizo 
+            de buenas canciones en loor de Nuestra Señora, hizo así mismo algunas invectivas 
+            contra Alfonso Álvarez de diversas materias y bien ordenadas.</p>
+         <p>Los que después de ellos en estos nuestros tiempos han escrito o escriben ceso 
+            de los nombrar, porque de todos me tengo por dicho que vos, muy noble señor, 
+            hayáis noticia y conocimiento. Y no os maravilléis, señor, si en este proemio haya 
+            tan extensa y largamente narrado estos tanto antiguos y después nuestros autores, y 
+            algunos decires y canciones de ellos, como parezca haber procedido de una manera 
+            de ociosidad, lo cual de todo punto deniegan no menos ya la edad mía que la 
+            turbación de los tiempos. Pero es así que como en la nueva edad me pluguiese, 
+            hallelos ahora, cuando me pareció ser necesarios. Ca así como Horacio, poeta, 
+            dice quem nova concepit olla servabit odorem.</p>
+         <p>Pero de todos estos, muy magnífico señor, así itálicos como provenzales, 
+            lemosines, catalanes, castellanos, portugueses y gallegos, y aun de cualesquier otras 
+            naciones, se adelantaron y antepusieron los gálicos cisalpinos y de la provincia de 
+            Aquitania en solemnizar y dar honor a estas artes. La forma y manera cómo dejo 
+            ahora de recontar por cuanto ya en el prólogo de los mis Proverbios se ha 
+            mencionado.</p>
+         <p>Por las cuales cosas y aun por otras muchas, que por mí y más por quien más 
+            supiese se podrían ampliar y decir, podrá sentir y conocer la vuestra magnificencia 
+            en cuánta reputación, estima y comendación estas ciencias haberse deben, y cuánto 
+            vos, señor muy virtuoso, debéis estimar que aquellas dueñas, que en torno de la 
+            fuente de Helicón incesantemente danzan, en tan nueva edad no inméritamente a la 
+            su compañía os hayan recibido. Por tanto, señor, cuanto yo puedo exhorto y 
+            amonesto a la vuestra magnificencia que, así en la inquisición de los hermosos 
+            poemas como en la pulida orden y regla de aquellos, en tanto que Cloto hilare la 
+            estambre, vuestro muy elevado sentido y pluma no cesen por tal que, cuando 
+            Átropos cortare la tela, no menos délficos que marciales honores y glorias obtengáis.</p>
+            
+            
+            
+      </body>
+  </text>
+</TEI>
+

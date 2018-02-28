@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Enrique de Villena (Cuenca, 1384-1434) Bibliografía escogida: Obras completas I y II,
+          Turner, 1994. Los doce trabajos de Hércules, Vicente García Editores, 1995.</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>http://bdh.bne.es/bnesearch/biblioteca/El%20arte%20de%20trovar%20o%20La%20gaya%20ciencia%20%20%20/qls/Villena,%20Enrique%20de%20Arag%C3%B3n,%20Marqu%C3%A9s%20de%20(ca.%201384%20ca.%201434)/qls/bdh0000043363;jsessionid=CB18935B34C9745A765AB36DCD51985B</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Libro de la sciençia Gaya</p>
+      <p>[La arte del trobar se llamava antiguamente en Castilla la gaya sciençia, como pareçe por
+        el libro que hizo della don Enrique de Villena, intitulándola a don Íñigo López de Mendoça,
+        señor de Hita, etc. Síguese algunos vocablos y cosas d&#8217;este libro] [...] Por la mengua
+        de la sciençia todos se atreven a hazer ditados, solamente guardada la igualdad de las
+        síllabas y concordançia de los bordones, según el compás tomado, cuidando que otra cosa no
+        sea cumplidera a la rímica dotrina. E por esto no es fecha diferencia entre los claros
+        ingenios e los obscuros. [...] [...] Maguer otras cosas arduas, vindicasen a sí mi intento,
+        así que un travajo fuese reposo de otro trabajo [La traslaçión de Virgilio que hazía don
+        Enrique de Villena de la Eneyda]. [...] E quise dirigir este tratado a vos, honorable e
+        virtuoso cavallero don Íñigo López de Mendoça, pues que mis obras, aunque impertinentes,
+        conozco a vos ser plazibles e que vos delectaes en fazer ditados y trobas, ya divulgadas y
+        leídas en muchas partes. E por mengua de la gaya dotrina, no podéis transfundir en los
+        oidores de vuestras obras las esçelentes invençiones que natura ministra a la serenidat de
+        vuestro ingenio con aquella propiedat que fueron conçebidas. E vos, informado por el dicho
+        tratado, seais originidat donde tomen lumbre y dotrina todos los otros del regno que se
+        dizen trobadores para que lo sean verdaderamente. [...] Tomaréis algún depuerto [...] El
+        consistorio de la gaya sciençia se formó en Françia en la çibdad de Tolosa por Ramón Vidal
+        de Besaldú [...] Esmerándose con aquellas reglas los entendidos de los grosseros [...] Este
+        Ramón, por ser començador, no fabló tan complidamente. Suçedióle Jofré de Foxá, monge negro,
+        e dilató la materia, llamando a la obra que hizo Continuaçión del trobar. Veno después
+        d&#8216;éste Verenguel de Noya e fizo un libro de figuras e colores reptóricos. Depués
+        escrivió Guilielmo Vedel de Mallorca la Summa vitulina. Con este tratado, porque durase la
+        gaya sciençia, se fundó el collegio de Tholosa de trobadores, con authoridad y permisión del
+        rey de Françia, en cuyo territorio es. E les dio libertades e privillegios e asinó çiertas
+        rentas para las despensas del consistorio de la gaya dotrina. Ordenó que uviese siete
+        mantenedores que hiziesen leyes [etc.] [...] Hizieron el tratado intitulado Leyes de amor,
+        donde se cumplieron todos los defetos de los tratados passados. Este era largo, por donde
+        Guillén Moliner le abrevió y hizo el Tratado de las flores, tomando lo sustançial del libro
+        de las Leyes de amor. Después vino fray Ramón de Cornet e fizo un tratado en esta sciençia,
+        que se llama Dotrinal. Éste no se tuvo por tan buena obra, por ser de persona no mucho
+        entendida. Reprehendiósela Johán de Castilnou.</p>
+      <p>[asumando]</p>
+      <p>Los vicios esquivadores, id est que se deven esquivar. [Después déstos no escrivió otro,
+        hasta don Enrique de Villenal].</p>
+      <p>[...]</p>
+      <p>Tanto es el provecho que viene d&#8217;esta dotrina a la vida civil, quitando oçio e
+        ocupando los generosos ingenios en tan honesta investigaçión, que las otras nasçiones
+        desearon e procuraron aver entre sí escuela d&#8217;esta dotrina. E por eso fue ampliada por
+        el mundo en diversas partes. A este fin el rey don Joan de Aragón, primero d&#8217;este
+        nombre, fijo del rey don Pedro segundo, fizo solepne embaxada al rey de Françia, pidiéndole
+        mandase al collegio de los trobadores que viniesen a plantar en su reino el estudio de la
+        gaya sciençia e obtóvolo. E fundaron estudio d&#8217;ello en la çibdat de Barcelona dos
+        mantenedores que vinieron de Tolosa para esto, ordenándolo d&#8217;esta manera: que uviese
+        en el estudio e consistorio d&#8217;esta sciençia en Barçelona cuatro mantenedores, el uno
+        cavallero, el otro maestro en theología, el otro en leyes, el otro honrado cibdadano. E
+        cuando alguno d&#8216;éstos falleçiese, fuese otro de su condiçión elegido por el collegio
+        de los trobadores e confirmado por el Rey. En tiempo del rey don Martín, su hermano, fueron
+        más previllejados e acrecentadas las rentas del consistorio para las despensas fazederas,
+        así en la reparaçión de los libros del arte e vergas de plata de los vergueros que van
+        delante los mantenedores e sellos del consistorio, como en las joyas que se dan cada mes e
+        para celebrar las fiestas generales. E fiziéronse en este tiempo muy aseñaladas obras, que
+        fueron dinas de corona. Después de muerto el rey don Martín, por los debates que fueron en
+        el reino de Aragón sobre la succesión, ovieron de partir algunos de los mantenedores e los
+        principales del consistorio para Tortosa y cesó lo del collegio de Barçelona [...] Fue
+        después elegido el rey don Fernando, en cuyo servicio vino [don Enrique de Villena, el cual
+        procuró] la reformaçión del consistorio y señaláronle por el principal d&#8217;ellos [...]
+        Las materias que se proponían en Barçelona estando allí [don Enrique]: algunas vezes loores
+        de santa María, otras de armas, otras de amores e de buenas costumbres [...] E llegado el
+        día prefigido, congregávanse los mantenedores e trobadores en el palaçio, donde yo posava. E
+        de allí partíamos ordenadamente con los vergueros delante e los libros del arte que traían y
+        el registro ante los mantenedores. E llegados al dicho capítulo, que ya estava aparejado e
+        emparamentado aderredor de panyos de pared, e fecho un asentamiento de frente con gradas, en
+        do estava [don Enrique] en medio e los mantenedores de cada parte, e a nuestros pies los
+        escrivanos del consistorio; e los vergueros más baxo e el suelo cubierto de tapiçería. E
+        fechos dos çircuitos de asentamientos, en do estavan los trobadores, e en medio un
+        bastimento cuadrado tan alto como un altar, cubierto de pañios de oro, e ençima puestos los
+        libros del arte e la joya. E a la manderecha estava la silla alta para el Rey, que las más
+        vezes era presente, e otra mucha gente, que se ende llegava. E fecho silencio, levantávase
+        el maestro en theología, que era uno de los mantenedores, e fazía una presuposiçión con su
+        thema y sus alegaçiones e loores de la gaya sciençia e de aquella materia que se avía de
+        tratar en aquel consistorio. E tornávase a sentan. E luego uno de los vergueros dezía que
+        los trobadores allí congregados espandiesen y publicasen las obras que tienen fechas de la
+        materia a ellos asignada. E luego levantávase cada uno e leía la obra que tenía fecha en boz
+        intelligible. E traíanlas escritas en papeles damasquines de diversos colores, con letras de
+        oro e de plata e illuminaduras fermosas, lo mejor que cada uno podía. E desque todas eran
+        publicadas, cada uno la presentava al escrivano del consistorio. Teníanse después dos
+        consistorios, uno secreto y otro público. En el secreto fazían todos juramento de judgar
+        derechamente sin parçialidad alguna, segúnt las reglas del arte, cuál era mejor de las obras
+        allí esaminadas. E leídas puntuadamente por el escrivano, cada uno d&#8217;ellos apuntava
+        los viçios en ella contenidos. E senyalávanse en las márgenes de fuera. E todas así
+        requeridas, a la que era fallada sin viçios o a la que tenía menos, era judgada la joya por
+        los votos del consistorio. En el público congregávanse los mantenedores e trobadores en el
+        palaçio. E yo partía dende con ellos, como está dicho, para el capítulo de los frailes
+        predicadores. E, collocados e fecho silençio, yo les fazía una presuposición, loando las
+        obras que avían fecho e declarando en espeçial cuál d&#8217;ellas mereçía la joya. E aquella
+        ya la traía el escrivano del consistorio en pargamino bien illuminada e ençima puesta la
+        corona de oro. E firmávalo yo al pie e luego los mantenedores. E sellávala el escrivano con
+        el sello pendiente del consistorio. E traía la joya ante mí. E, llamado el que fizo aquella
+        obra, entregávale la joya e la obra coronada, por memoria. La cual era asentada en el
+        registro del consistorio, dando authoridat e liçençia para que se pudiese cantar e en
+        público dezir. E acabado esto, tornamos de allí al palaçio en ordenança. E iva entre dos
+        mantenedores el que ganó la joya. E levávale un moço delante la joya, con ministriles e
+        trompetas. E llegados al palaçio, hazíales dar confites e vino. E luego partían dende los
+        mantenedores e trobadores con los menistriles e joya, acompanyando al que la ganó fasta su
+        posada. E mostrávase aquel avantaje que Dios e natura fizieron entre los claros ingenios e
+        los oscuros [de donde pareçe que ventaje viene del vocablo italiano avante]. E no se
+        atrevían los ediothas [...] [La difinición de sciençia según Galter Burley en la Summa de
+        las artes:] sciençia es complida orden de cosas inmutables e verdaderas [...] E acatando
+        seis instrumentos, siquiere órganos, que forman en el hombre bozes articuladas e literadas,
+        es a saber pulmón con su continuo movimiento, sistolando e diastolando, reçibiendo aire
+        fresco hazia sí e lançando el escalentado fuera del cuerpo por muchas partes, espeçialmente
+        por la tracharchedía, que es la canna del resollo [etc.], percude, siquiere fiere el aire
+        [...] El segundo, paladar [...] El terçero, lengua [...] El cuarto, dientes, que por
+        compresión fazen zizilar a atenuar el son, siquiere adelgazar. El quinto, los beços [...] El
+        sesto, la trachearchedía [...] No son las bozes articuladas en igual número çerca de todas
+        las gentes, porque la dispusición de los aires e sitio de las tierras disponen estos
+        instrumentos por diversa manera. A unos dilatándoles la canna, e por eso fablan de garguero;
+        a otros, faziéndoles la boca de grant oquedat, e por eso fablan ampuloso; e a otros,
+        faziendo las varillas de poco movimiento, e por eso fablan zizilando. E ansí de las otras
+        diversidades. [...] Esta parte primera se dividirá en diez partículas. La primera, cuándo y
+        por quién la letra latina fue hallada. La segunda, la difinición de la letra. La terçera,
+        cuántas son las letras y qué figuras tienen. La cuarta, de los açidentes e de la mutaçión de
+        sus figuras segúnt la diversidat de los tienpos. La quinta, del departimiento que han entre
+        sí, segúnt las bozes que significan. La sexta, del son de cada una, por la conjunçión de
+        unas con otras. La setena, cómo se muda el son de una en son de otras e se puede poner una
+        por otra en çiertos lugares. La ochava, cómo se ponen algunas letras e no se pronuncian e
+        otras se pronuncian, aunque no se ponen. La novena, en el escrevir, segúnt las reglas de los
+        trobadores antiguos, cómo se deven situar. La dezena, de la abreviatura de las letras. [...]
+        [San Isidoro en el primero libro de sus Timologías; Micer Armenio escrivió la Istoria
+        florita]. [La antigüedad de la letra latina sácala así don Enrique de Villena en el Libro de
+        la sciençia gaya]: Al terçero año que Nicostrato dio las letras a los de Italia, el rey
+        latino hizo juntar sabidores y las reglas dadas por Carmenta fueron corregidas e llamóse
+        letra latina. Fue esto deziocho años antes de la postrimera presa de Troya, la cual fue
+        antes de la era de nuestro Salvador Jesuchristo por <date type="caps">MCLXXXV</date> años,
+        según Phelipe Elephante en la glosa del Timeo de Platón, lo cual dize que sacó de las
+        historias de los egipçianos. E la era de nuestro Salvador corre aora <date type="caps"
+          >MCCCC</date> e <date type="caps">XXXIII</date>, todo junto serán II <date type="caps"
+          >MDCXXXVI</date> años [...] Ocho diphtongos son avidos por leales, siquiere çiertos en el
+        trobar. Es a saber: ai, ei, oi, ui, au, eu, iu, ou; éstos son de dos letras. Ia, ie, ue no
+        son finos, que se llaman por otro nombre impropios. De tres letras se componen otros ocho:
+        guay, uey, ioy, iuy, uau, ueu, uiu, uou. [...] [Mastre Gil fizo un tratado titulado Summa de
+        proverbiar]. [Lenguagge, linagge, con dos &#8216;gg&#8217;]. [Algunos ditados antiguos o
+        petafios]. Carmenta nombró a la f fiex e a la x xi, conforme a la apelación griega. Aa, Be,
+        ce, de, ee, efe, ge, ache, ii, ca, ele, eme, ene, oo, pe, cu, erre, ese, te, uu, eques, y
+        griega, zz, tilde. [...] [La h] el pulmón con su aspiraçión forma la h. La trachearchedía
+        forma la a e la e e la i e la diferençia que entre ellas se faze es por menos respiraçión;
+        que la a se pronunçia con mayor e la e con mediana e la i con menor. El paladar, con su
+        oquedat, forma la o e la k, pero la o ayúdase con los beços. La lengua forma la r, firiendo
+        en el paladar; e la d e la t e la 1, firiendo en los dientes; e la y griega, ayudándose con
+        paladar e dientes; e la n e tilde, firiendo muellemente en los dientes medio cerrados. E los
+        dientes forman la z apretados, zizilando; e la x e la g, ayudándose un poco con la lengua.
+        Los beços con clausura e aperiçión forman la b, f, m e la p e la q; e la v, aguzando con
+        alguna poca abertura e ayudándose de la respiraçión. Algunos quisieron atribuir la
+        pronunçiaçión de la o a los beços, porque se aguzan e abren en forma çircular. Pero mayor
+        operaçión faze en ello el paladar e por eso a él fue asignada de suso. [...] [Alphabeto de
+        Carmentas:] [El de los longobardos:] A la &#8216;fiex&#8217; llamaron &#8216;fi&#8217;. Y a
+        la &#8216;h&#8217; &#8216;aca&#8217;. [El de los godos:] [...] Después que la tierra se
+        perdió en tiempo del rey don Rodrigo, como se perdieron los estudios de Toledo e los de
+        Çamora e de Ávila, corrompióse el uso e reglas de la letra góthica o usaron de tales
+        figuras: </p>
+      <p>E dixeron a la f efe, e a la x eques. [...]</p>
+      <p>Toledo se llamava Fajén; e Çamora, Numançia; e Ávila, Ábila. Después, recogidos los
+        christianos en el Monte Sacro en Asturias, e peresçieron los saberes entr&#8217;ellos; y aun
+        el escrevir y leer por diuturnidad de tiempo. Desque fueron conquistando, sintieron la
+        mengua de la perdida letra e embiaron a la isla de Ingalaterra por maestros que tuviesen
+        escuelas de escrevir y leer y grammática e mostráronles un tal alfabeto: Llamaron la letra
+        anglicana e dezían a la h aque, pero los d&#8217;este regno no podían pronunçiar sino ache
+        Tomaron de los moros las colas de las letras rebueltas e el liamiento de los vocablos e
+        tildes grandes e el tener de la péndola e&#8217;l leer en son. Corrompióse el anglicano e
+        uvo éste: E éste á llegado fasta el uso d&#8217;este tiempo [...] Allende el son particular
+        que cada letra por sí tiene, cuando se conjungen unas con otras forman otro son. Esta
+        formaçión se entiende en dos maneras, una en general, otra en espeçial. La general en tres,
+        es a saber, plenisonante, semisonante, menos sonante. Cuando la letra es puesta en prinçipio
+        de dición, toma el son más lleno e tiene mejor su propia boz e por eso es dicha
+        plenisonante, es a saber aviente su son lleno. Cuando es puesta en medio de dición, no suena
+        tanto e difúscasse el son de su propia boz. Cuando es en fin de la diçión, del todo pierde
+        el son de su propia boz o suena menos que en el medio. E por eso es dicha menos sonante. La
+        espeçial manera es considerando la condición de cada una, segúnt la conjunçión en que se
+        halla. Así como las vocales, que allende de la regla general dicha, por espeçial razón son
+        algunas vezes plenisonantes, aunque sean falladas en medio de dición, así como diziendo vas,
+        ven, diz, joy, luz; que, maguer que las vocales puestas en estas diciones estén en medio,
+        retienen su lleno son, por la plenitud de la voz vocal, que les ayuda. E algunas vezes las
+        tres vocales a e o suenan de otra manera con son semisonante o menos sonante puestas en
+        medio de diçión e fin, así como quien dize proëza, grana, honor, que la e en la primera
+        diçión es semisonante e la a en la segunda, e la segunda o en la terçera. Esto les acaeçe
+        por la conjunçión de las precedentes letras, que se lían e encorporan con el son de la vocal
+        en composiçión de bozes. E por eso la vocal pierde parte de su lleno son. Estas tres vocales
+        puestas en mitad de diçión sin mudar la postrimera letra tienen a vezes lleno son y otras
+        medio. Quien dize vas da medio son; e si dixese paz, daríale lleno; diziendo vos es
+        semisonante, diziendo pos es plenisonante. E si dixese pres, aquella e es plenisonante; e si
+        dixese tres, es semisonante. E porque gozan de amos los sones según el ayuda del prinçipio,
+        dízense utrisonantes. La v e la i en prinçipio de vocal se hazen consonantes. Cuando la g
+        con vocal se junta, así como a e u, tiene son suave, como quien dize plaga, dragón, daga. E
+        esto es con la a. E con la e, así como llegué, pagué, con la u, así como guardar, guiar.
+        Pero cuando se junta con e e con i, entonçes suena fuerte, como quien dize linagge, girón,
+        girconça. En el fin quitan la e pug [Alberic]. La l se dobla para hazerla plenisonante al
+        prinçipio e al medio. En el fin nunca se dobla, sino en la lengua limosina. Cuando la r es
+        semisonante, no se dobla: ara, ira. Cuando es plenisonante, dóblase, error. En prinçipio de
+        diçión, es plenisonante; no se dobla: rey, roque, roçín. En los nombres propios, en medio de
+        diçión es plenisonante y no se dobla: Enrique, Ferando. La p e la b algunas vezes fazen un
+        mesmo son, como quien dixese cabdinal, que también se puede dezir capdinal. E t e d eso
+        mesmo convienen en son, en fin de diçión, así como quien dize çibdad, que se puede fazer con
+        d e con t. En prinçipio son disonantes. La q e la c convienen en son en principio de dición.
+        Quantidad se escrive con q, calidad se escrive con c. La k conviene con este son, diziendo
+        karidad, pero tiene esta espeçialidad la k, que no se puede poner sino en prinçipio de
+        dición e todavía es plenisonante. La m e la n convienen en son algunas vezes en medio de
+        dicion, así como diziendo tiempo, que, aunque se escrive con m, faze son de n. E si lo
+        escriven con n, faze el mismo son. E por eso algunos lo escriven con n, aviéndose de
+        escrevir con m. En los nombres propios que es menester que la pronunciación sea fuerte,
+        ponen en medio aspiraçión: Matheo, Anthonio. La x nunca es plenisonante, doquier que se
+        ponga; antes muda algunas vezes su son, a vezes en c, a vezes en g; así como quien dize bux,
+        flux, que se escriven con x e fazen son de g; fix escrívese con x e faze son de c. La z
+        algunas vezes en el fin tiene son de c: pec por pescado, que se escrive con c e tiene son de
+        z. Otras vezes es semisonante: prez. Las vocales son çinco: a, e, o, u; porque la i es la
+        quinta, sirve en la cuenta por çinco. Las mutas son nueve: b, c, d, f, g, k, p, q, t. Las
+        semivocales son çinco: l, m, n, r, s. Las estraordinarias son tres: x, y, z. Los sinos son
+        dos: h, La l en la cuenta se toma por çincuenta, porque es la quinta de las semivocales e
+        primera d&#8217;ellas [...] Dexaron de llamarse semivocales e llamáronse líquidas [...]
+        [Pónense unas letras por otras]: c se muda en z: az; b por p: cabdinal, capdinal; c por k; d
+        en t: cibdad, cibdat, la m en n: compromisso (algunos se atreven a escrevir compromisso). La
+        f se muda en p ayudada de la aspiraçión h, como quien dize Phelipe, la o en u: peconia,
+        pecunia, furca, forca. La u latina siempre se muda en castellano en o. La g se muda en i:
+        juego, Jhesús; la j en g; gentil. La ç se muda en z: Zamora, Gormaz, Gormaç. La b se pone
+        por la p: estribo avíase de dezir estripo, derivándose de pie. En lugar de d se pone t en
+        fin de dición: brevedat. Por la f se pone p, como quien dize philósopho. Por la g se pone j,
+        como quien dize junça. Por la k se pone c, como quien dize cavallo. Por la m se pone n, como
+        quien dize tienpo, ca se avía de escrevir con m, pero, según el uso moderno, se escrive con
+        n. La p se muda en b, como quien dize cabdillo, que se avía de poner con p, la q por c, como
+        en quantidad. Algunas letras que se ponen e no se pronunçian: quien dize philosophía
+        pronunçia f e no se pone. Quien dize cunyo pronuncia q e no se pone. Cantar pronunçia k e no
+        se pone. Sciencia pónese s y no se pronunçia. Psalmo pónese p e no se pronunçia. Honor
+        pónese h e no se pronunçia; ha, por tiene, ponese h e no se pronunçia. En los nombres
+        propios pónese h e no se pronunçia: Marcho. La e, cuando viene déspues de muta, no suena
+        sino el son de la muta, porque termina en ella. Así como be, que faze son de b e se encubre
+        la e. E esto acaeçe porque en el leer no se pone letra pronunçiada por sí, sino copulada con
+        otra, salvo las vocales, que se ponen en algún lugar por sí: así como la o en la dijuntiva e
+        la e en la conjuntiva e la a en la relativa. E aquellas letras que se ponen e no se
+        pronunçian según el común uso algo añaden al entendimiento e significación de la diçión
+        donde son puestas. Aquí puede entrar magnífico, sancto, doctrina, signo, etc. [...] De la
+        situaçión de las letras según los trobadores antiguos. Situaron en tal manera las letras que
+        fiziesen buena euphonía, siquiere plazible son, e se desviaron de aquella posición de letras
+        que fazía son desplazible. E por eso, en fin de diçión, donde era menester doblar la l,
+        ponen una h, en lugar de la postrimera l, como quien dize metalh, por temprar el rigor de la
+        segunda l con la aspiraçión de la h. E donde venía g en medio de diçión sonante fuerte,
+        pónenle antes una t, así como por dezir linagge ponen linatge, paratge. Esto se haze en la
+        lengua limosina. En la castellana lo imitan en mucho, que aquel mu suena débilemente e
+        anyadiéronle una tilde en lugar de n entre la u y la c e escriven mcho; o por dezir como
+        escriven coo. E porque la d, cuando viene çerca de o siguiente suena débilemente,
+        anyadiéronle una g, como por decir portado, portadgo; infatado, infatadgo, e entonçes suena
+        la d. E porque la h en prinçipio de diçión faze la espiraçión abundosa, en algunas diçiones,
+        pusieron en su lugar f, por temprar aquel rigor, así como por dezir hecho ponen fecho, e por
+        herando, ferando, e por dezir meyo dizen medio. E algunos por templar el rigor de la r ponen
+        en su lugar l; así como por dezir prado dizen plado. Cuando la a se encuentra con la t,
+        difusca el son; por eso le acorren con una c en medio; así como por dezir prática escriven
+        práctica. E según el antiguo uso, chi dezié qui e che dizié que, e para le fazer dezir chi
+        anyade otra c, como quien dize acchilles o saccheo. E por dezir año, que ponen en lugar de
+        la segunda n una y griega, así: anyo, que adulça el son. E la tilde suple la boz de la n que
+        se quita. E cuando la i se encuentra con la s suena poco, e por eso la ayudan con la
+        consonancia de la x en medio; así como por dezir misto se pone mixsto. Tiene la e la misma
+        condiçión; e, así, por dezir testo se escrive texsto. E, cuando la n se encuentra con la t,
+        suena débilemente; e para le fazer sonar, acórrenle con una c, como por dezir tanto se
+        escrive tancto. E la c, cuando es puesta entre vocales, faze agro son; e por lo temprar, en
+        su lugar ponen t, pronunçiándola como c, con muelle son, como quien dize illuminatión. E la
+        x al principio retrae el son de s, mas faze el son más lleno; e por eso por dezir setaf
+        escriven xetaf. E cuando la o se encuentra con la b en medio de dición detiene la boz; e por
+        eso en su lugar ponen v, como por dezir cobdo escriven covdo. E cuando la y griega sigue a
+        la e en medio de dición, faze detener la boz; e por eso en su lugar ponen g, como por dezir
+        reyno, que escriven regno. Guardáronse los trobadores de poner un vocablo que començase en
+        vocal tras otro que acabase en ella, como casa alta, que aquellas dos aes confonden e
+        detienen la boz. También aconteçe esto en la r: fazer razón. E cuando el precedente acaba en
+        s e el siguiente comiença por r: tres Reyes. Ay d&#8217;esto sus excepciones, que se sufren
+        poner estas vocales o letras arriba dichas en fin de pausa, donde se descansa, o en medio de
+        bordón. Y entonçes no es inconviniente que la pausa siguiente comiençe así. Exemplos:</p>
+      <p>Tancto fuy de vos pagado,</p>
+      <p>olvidar que no lo puedo.</p>
+      <p>O quien dize:</p>
+      <p>Quien de trobar reglas primero dio.</p>
+      <p>O quien dize:</p>
+      <p>Cuando querrás resçebir la dotrina.</p>
+      <p>Y del todo se quita el inconviniente cuando la una viene en fin de bordón e la otra en el
+        bordón siguiente inmediato, como quien dize:</p>
+      <p>Vuestra bondat por ser de mí loada</p>
+      <p>avrá sazón sea más conoçida.</p>
+      <p> También cuando es diptongo en que se acaba el vocablo puede el que se sigue començar en
+        vocal, como quien dize:</p>
+      <p>Cuidado tengo yo de ti, ay alma,</p>
+      <p>por tu mal fazer.</p>
+      <p>Venir un diptongo en pos de otro, sin medio de otra dición, faze mal son e abrir mucho la
+        garganta, como quien dize: </p>
+      <p>Pues que soy yunque sufriré.</p>
+      <p>También es son impertinente acabar la dición en m e la otra començar en vocal, aunque se
+        salva por la sinelimpha, figura de quien se dirá en la distinçión terçera. Y cuando acaba
+        una en consonante y otra comiença en ella, prinçipalmente si fueren de un son, como quien
+        dize corral losado, paret tasa o calles secas. E así hizieron en otras muchas. Como en lugar
+        de teçer, que suena graçialmente, dixeron texer, quitando la ç e puniendo la x, que abiva el
+        son de aquella diçión; e por fisar, fixar, e la diçión linage, linagge, para abivar la a; en
+        Cristo, Cripsto [...] Abreviaturas de diversas sciencias: Orthogrophía. Los grammáticos: los
+        casos Los lógicos: Los rhetóricos: Los arism: Los legistas ponen por digestos dos ff, porque
+        los griegos dizen esta figura digama, siquier doble g, e porque tiene comienzo de dig,
+        pónenlo por digestis; por párrafo ponen ¶; por códice, c, por ley, l; e por re judicata, r.
+        ju. Canonistas, li. pe., lite pendente, PP, papa; q, cuestión; co, consagración. Los
+        mercaderes: por sueldo ponen ff, por florín, flo; por dobla, do; por cafíz [aora dezimos
+        cahíz], cfª, por fanega, fª, por trigo, tº, por cevada, çª, por dinero, diº, por maravedí, z
+        [...]</p>
+      <p>Y la guía de la madre</p>
+      <p>era la sangre del hijo</p>
+      <p>Lo que aora dezimos soberano en los libros antiguos está somerano, que parece que viene de
+        summus. En el libro de Ramón Lull de Mallorca: «e si por aventura ellos sopiesen la manera
+        cómo nós creemos en la somerana e divina Trinidad». [...] Pieça, vocablo equívoco: pieça por
+        aposento, pieça por espacio de tiempo, pieça por pedaço, pieça de vaca, pieça de paño
+        [...]</p>
+      <p>En acordarme quien fui</p>
+      <p>la memoria me lastima [...]</p>
+    </body>
+  </text>
+</TEI>
